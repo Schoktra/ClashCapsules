@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.mineclash.item.WeaponClashCapsuleItem;
 import net.mcreator.mineclash.item.UkuleliItem;
 import net.mcreator.mineclash.item.TimeClashCapsuleItem;
+import net.mcreator.mineclash.item.TaddlNoodlezookaItem;
 import net.mcreator.mineclash.item.PlainPowerbeanItem;
 import net.mcreator.mineclash.item.LighntingClashCapsuleProjectileItem;
 import net.mcreator.mineclash.item.LefloidswordItem;
@@ -53,6 +54,7 @@ public class MineclashModItems {
 			() -> new ForgeSpawnEggItem(MineclashModEntities.TWITTER_BIRD, -16744193, -16727843,
 					new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES)));
 	public static final RegistryObject<Item> COLDMIRRORS_WAND = REGISTRY.register("coldmirrors_wand", () -> new ColdmirrorsWandItem());
+	public static final RegistryObject<Item> TADDL_NOODLEZOOKA = REGISTRY.register("taddl_noodlezooka", () -> new TaddlNoodlezookaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

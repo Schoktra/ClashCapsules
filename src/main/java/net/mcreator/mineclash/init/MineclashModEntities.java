@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.mineclash.entity.TwitterBirdEntity;
+import net.mcreator.mineclash.entity.TaddlNoodlezookaEntity;
 import net.mcreator.mineclash.entity.PlayerCloneEntity;
 import net.mcreator.mineclash.entity.LighntingClashCapsuleProjectileEntity;
 import net.mcreator.mineclash.entity.FireClashCapsuleProjectileEntity;
@@ -55,6 +56,10 @@ public class MineclashModEntities {
 	public static final RegistryObject<EntityType<ColdmirrorsWandEntity>> COLDMIRRORS_WAND = register("projectile_coldmirrors_wand",
 			EntityType.Builder.<ColdmirrorsWandEntity>of(ColdmirrorsWandEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ColdmirrorsWandEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<TaddlNoodlezookaEntity>> TADDL_NOODLEZOOKA = register("projectile_taddl_noodlezooka",
+			EntityType.Builder.<TaddlNoodlezookaEntity>of(TaddlNoodlezookaEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(TaddlNoodlezookaEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

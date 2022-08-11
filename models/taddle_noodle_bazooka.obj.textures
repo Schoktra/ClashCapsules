@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_0": "taddle_noodle_bazooka_texture"
+      },
+      "name": "default"
+    }
+  }
+}

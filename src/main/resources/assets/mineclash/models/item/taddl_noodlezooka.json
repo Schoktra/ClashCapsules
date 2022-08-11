@@ -1,0 +1,10 @@
+{
+  "forge_marker": 1,
+  "parent": "forge:item/default",
+  "loader": "forge:obj",
+  "model": "mineclash:models/item/taddle_noodle_bazooka.obj",
+  "textures": {
+    "m_0": "mineclash:blocks/taddle_noodle_bazooka_texture",
+    "particle": "mineclash:items/taddl_noodlezooka_texture"
+  }
+}
