@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "MineClash Weapons",
+    "icon": {
+      "value": "CUSTOM:ClashCapsuleSword"
+    },
+    "showSearch": false
+  }
+}

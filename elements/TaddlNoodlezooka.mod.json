@@ -8,7 +8,7 @@
     "name": "Taddl´s Noodlezooka",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:ClashCapsules"
+      "value": "CUSTOM:MineClashWeapons"
     },
     "stackSize": 1,
     "ammoItem": {
@@ -20,7 +20,7 @@
       "value": "entity.generic.explode"
     },
     "hasGlow": false,
-    "animation": "crossbow",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,

@@ -7,10 +7,10 @@
     "customModelName": "Normal",
     "name": "Lefloidsword",
     "specialInfo": [
-      "Lefloid´s signature weapon of choice"
+      "LeFloid´s signature weapon of choice"
     ],
     "creativeTab": {
-      "value": "CUSTOM:ClashCapsules"
+      "value": "CUSTOM:MineClashWeapons"
     },
     "toolType": "Sword",
     "harvestLevel": 1,

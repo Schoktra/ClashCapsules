@@ -17,5 +17,9 @@ public class CapsuletableoverlaywhilethisguiisopentickProcedure {
 			_player.containerMenu.broadcastChanges();
 		}
 		SampleProcedure.execute(entity);
+		CloningCapsuleRecipeProcedure.execute(entity);
+		LightningCapsuleRecipeProcedure.execute(entity);
+		FireCapsuleRecipeProcedure.execute(entity);
+		TimeCapsuleRecipeProcedure.execute(entity);
 	}
 }

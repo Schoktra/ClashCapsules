@@ -28,7 +28,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class ColdmirrorsWandItem extends Item {
 	public ColdmirrorsWandItem() {
-		super(new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES).durability(150));
+		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(150));
 	}
 
 	@Override

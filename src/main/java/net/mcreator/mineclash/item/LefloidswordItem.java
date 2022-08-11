@@ -44,13 +44,13 @@ public class LefloidswordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES));
+		}, 3, -3f, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Lefloid\u00B4s signature weapon of choice"));
+		list.add(new TextComponent("LeFloid\u00B4s signature weapon of choice"));
 	}
 
 	@Override

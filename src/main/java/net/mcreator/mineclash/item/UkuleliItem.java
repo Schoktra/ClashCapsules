@@ -41,7 +41,7 @@ public class UkuleliItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES));
+		}, 1, -3f, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS));
 	}
 
 	@Override

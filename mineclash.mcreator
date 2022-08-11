@@ -565,6 +565,82 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "taddlzooka_noodles"
+    },
+    {
+      "name": "MineClashWeapons",
+      "type": "tab",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_clash_weapons"
+    },
+    {
+      "name": "LightningCapsuleRecipe",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_capsule_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleTable/Recipes"
+    },
+    {
+      "name": "FireCapsuleRecipe",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_capsule_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleTable/Recipes"
+    },
+    {
+      "name": "TimeCapsuleRecipe",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "time_capsule_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleTable/Recipes"
+    },
+    {
+      "name": "CloningCapsuleRecipe",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloning_capsule_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleTable/Recipes"
     }
   ],
   "variable_elements": [],
@@ -584,12 +660,13 @@
       "item.mineclash.clash_capsule_sword": "HondofBlood Sword",
       "entity.mineclash.community_ghost": "Community Ghost",
       "block.mineclash.capsule_crafting_table": "ClashCapsule Craftingtable",
+      "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
       "item.mineclash.fligh_clash_capsule": "Flight ClashCapsule",
       "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",
       "item.mineclash.coldmirrors_wand": "Coldmirrors Wand",
       "item.mineclash.taddlzooka_noodles": "Taddlzooka Noodles",
       "item.mineclash.twitter_bird_spawn_egg": "Tweet Spawn Egg",
-      "itemGroup.tabclash_capsules": "MineClash Items",
+      "itemGroup.tabclash_capsules": "MineClash Clashcapsules",
       "item.mineclash.lighnting_clash_capsule_projectile": "Lighnting Clash Capsule",
       "item.mineclash.plain_clashcapsule": "Plain ClashCapsule",
       "entity.mineclash.twitter_bird": "Tweet"

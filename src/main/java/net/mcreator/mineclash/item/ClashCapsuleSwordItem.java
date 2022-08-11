@@ -44,7 +44,7 @@ public class ClashCapsuleSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES));
+		}, 3, -3f, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS));
 	}
 
 	@Override
