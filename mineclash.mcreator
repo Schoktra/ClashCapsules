@@ -6,7 +6,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plain_clashcapsule"
+      "registry_name": "plain_clashcapsule",
+      "path": "~/Capsules"
     },
     {
       "name": "FlighClashCapsule",
@@ -14,7 +15,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fligh_clash_capsule"
+      "registry_name": "fligh_clash_capsule",
+      "path": "~/Capsules"
     },
     {
       "name": "CloningClashCapsule",
@@ -22,7 +24,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cloning_clash_capsule"
+      "registry_name": "cloning_clash_capsule",
+      "path": "~/Capsules"
     },
     {
       "name": "ClashCapsules",
@@ -38,7 +41,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "weapon_clash_capsule"
+      "registry_name": "weapon_clash_capsule",
+      "path": "~/Capsules"
     },
     {
       "name": "TimeClashCapsule",
@@ -46,7 +50,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "time_clash_capsule"
+      "registry_name": "time_clash_capsule",
+      "path": "~/Capsules"
     },
     {
       "name": "InvisibilityClashCapsule",
@@ -54,7 +59,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "invisibility_clash_capsule"
+      "registry_name": "invisibility_clash_capsule",
+      "path": "~/Capsules"
     },
     {
       "name": "TimeClashCapsuleEffect",
@@ -74,7 +80,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "WeaponClashCapsuleEffect",
@@ -90,7 +97,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "InvisibilityClashCapsuleEffect",
@@ -106,7 +114,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "FlighClashCapsuleEffect",
@@ -126,7 +135,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "SlownessClashCapsuleEffectB",
@@ -154,7 +164,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "CpasuleCraftingtable",
@@ -162,7 +173,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "capsule_crafting_table"
+      "registry_name": "capsule_crafting_table",
+      "path": "~/CapsuleTable"
     },
     {
       "name": "ClashCapsuleCraftingtable",
@@ -170,7 +182,8 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clash_capsule_craftingtable"
+      "registry_name": "clash_capsule_craftingtable",
+      "path": "~/CapsuleTable"
     },
     {
       "name": "ClashCapsuleCraftingtableUpdateTick",
@@ -198,7 +211,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleTable"
     },
     {
       "name": "FireClashCapsuleProjectile",
@@ -242,7 +256,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "ClashCapsuleSword",
@@ -314,7 +329,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "LighntingClashCapsuleEffect",
@@ -346,7 +362,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleEffects"
     },
     {
       "name": "LighntingClashCapsuleProjectile",
@@ -378,7 +395,8 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "community_ghost_lt"
+      "registry_name": "community_ghost_lt",
+      "path": "~/CapsuleTable"
     },
     {
       "name": "Lefloidsword",
@@ -410,7 +428,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleTable/Recipes"
     },
     {
       "name": "Capsueltableoverlay",
@@ -418,7 +437,8 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "capsueltableoverlay"
+      "registry_name": "capsueltableoverlay",
+      "path": "~/CapsuleTable"
     },
     {
       "name": "Capsuletableoverlaywhilethisguiisopentick",
@@ -434,7 +454,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleTable"
     },
     {
       "name": "Capsuletableoverlaythisguiisclosed",
@@ -466,7 +487,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleTable"
     },
     {
       "name": "Capsuletableoverlaywhenitemtakenfromtheslot",
@@ -482,7 +504,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleTable"
     },
     {
       "name": "Capsuletableoverlaywhentransferredfromslot",
@@ -498,7 +521,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleTable"
     },
     {
       "name": "Minnonzerostacksize",
@@ -515,7 +539,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/CapsuleTable"
     }
   ],
   "variable_elements": [],
@@ -545,7 +570,25 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Capsules",
+        "children": []
+      },
+      {
+        "name": "CapsuleEffects",
+        "children": []
+      },
+      {
+        "name": "CapsuleTable",
+        "children": [
+          {
+            "name": "Recipes",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "mineclash",
