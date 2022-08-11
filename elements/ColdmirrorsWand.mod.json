@@ -1,0 +1,37 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "coldmirrors_wand",
+    "customModelName": "Normal",
+    "name": "Coldmirrors Wand",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ClashCapsules"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 150,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": true,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.SAPLING#0"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

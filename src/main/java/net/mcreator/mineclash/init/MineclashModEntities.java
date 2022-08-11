@@ -21,6 +21,7 @@ import net.mcreator.mineclash.entity.PlayerCloneEntity;
 import net.mcreator.mineclash.entity.LighntingClashCapsuleProjectileEntity;
 import net.mcreator.mineclash.entity.FireClashCapsuleProjectileEntity;
 import net.mcreator.mineclash.entity.CommunityGhostEntity;
+import net.mcreator.mineclash.entity.ColdmirrorsWandEntity;
 import net.mcreator.mineclash.MineclashMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -51,6 +52,10 @@ public class MineclashModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TwitterBirdEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<ColdmirrorsWandEntity>> COLDMIRRORS_WAND = register("projectile_coldmirrors_wand",
+			EntityType.Builder.<ColdmirrorsWandEntity>of(ColdmirrorsWandEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ColdmirrorsWandEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

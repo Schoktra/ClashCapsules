@@ -23,6 +23,7 @@ import net.mcreator.mineclash.item.LefloidswordItem;
 import net.mcreator.mineclash.item.InvisibilityClashCapsuleItem;
 import net.mcreator.mineclash.item.FlighClashCapsuleItem;
 import net.mcreator.mineclash.item.FireClashCapsuleProjectileItem;
+import net.mcreator.mineclash.item.ColdmirrorsWandItem;
 import net.mcreator.mineclash.item.CloningClashCapsuleItem;
 import net.mcreator.mineclash.item.ClashCapsuleSwordItem;
 import net.mcreator.mineclash.MineclashMod;
@@ -51,6 +52,7 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> TWITTER_BIRD = REGISTRY.register("twitter_bird_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineclashModEntities.TWITTER_BIRD, -16744193, -16727843,
 					new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES)));
+	public static final RegistryObject<Item> COLDMIRRORS_WAND = REGISTRY.register("coldmirrors_wand", () -> new ColdmirrorsWandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

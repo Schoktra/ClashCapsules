@@ -24,5 +24,6 @@ public class MineclashModEntityRenderers {
 		event.registerEntityRenderer(MineclashModEntities.COMMUNITY_GHOST.get(), CommunityGhostRenderer::new);
 		event.registerEntityRenderer(MineclashModEntities.PLAYER_CLONE.get(), PlayerCloneRenderer::new);
 		event.registerEntityRenderer(MineclashModEntities.TWITTER_BIRD.get(), TwitterBirdRenderer::new);
+		event.registerEntityRenderer(MineclashModEntities.COLDMIRRORS_WAND.get(), ThrownItemRenderer::new);
 	}
 }
