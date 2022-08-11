@@ -13,6 +13,7 @@ import net.minecraft.world.item.CreativeModeTab;
 public class MineclashModTabs {
 	public static CreativeModeTab TAB_CLASH_CAPSULES;
 	public static CreativeModeTab TAB_MINE_CLASH_WEAPONS;
+	public static CreativeModeTab TAB_MINE_CLASH_MCS;
 
 	public static void load() {
 		TAB_CLASH_CAPSULES = new CreativeModeTab("tabclash_capsules") {
@@ -30,6 +31,17 @@ public class MineclashModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(MineclashModItems.CLASH_CAPSULE_SWORD.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_MINE_CLASH_MCS = new CreativeModeTab("tabmine_clash_mcs") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(MineclashModBlocks.CAPSULE_CRAFTING_TABLE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

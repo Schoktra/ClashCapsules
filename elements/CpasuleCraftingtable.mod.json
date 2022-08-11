@@ -41,9 +41,9 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:ClashCapsules"
+      "value": "CUSTOM:MineClashMcs"
     },
-    "destroyTool": "axe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
@@ -109,7 +109,7 @@
     "hasInventory": true,
     "guiBoundTo": "Capsueltableoverlay",
     "openGUIOnRightClick": true,
-    "inventorySize": 10,
+    "inventorySize": 11,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": false,
@@ -125,6 +125,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "ClashCapsuleCraftingtableUpdateTick"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

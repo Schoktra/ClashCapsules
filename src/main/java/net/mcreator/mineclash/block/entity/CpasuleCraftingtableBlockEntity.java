@@ -32,7 +32,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class CpasuleCraftingtableBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(10, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(11, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public CpasuleCraftingtableBlockEntity(BlockPos position, BlockState state) {

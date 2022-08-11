@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Player Clone (WIP(",
+    "mobName": "Player Clone (WIP)",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "bipedal_dummy.png",
@@ -21,7 +21,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MineClashMcs"
     },
     "isBoss": false,
     "bossBarColor": "PINK",

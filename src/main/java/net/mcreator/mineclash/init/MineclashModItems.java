@@ -44,16 +44,16 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> LIGHNTING_CLASH_CAPSULE_PROJECTILE = REGISTRY.register("lighnting_clash_capsule_projectile",
 			() -> new LighntingClashCapsuleProjectileItem());
 	public static final RegistryObject<Item> CAPSULE_CRAFTING_TABLE = block(MineclashModBlocks.CAPSULE_CRAFTING_TABLE,
-			MineclashModTabs.TAB_CLASH_CAPSULES);
+			MineclashModTabs.TAB_MINE_CLASH_MCS);
 	public static final RegistryObject<Item> CLASH_CAPSULE_SWORD = REGISTRY.register("clash_capsule_sword", () -> new ClashCapsuleSwordItem());
 	public static final RegistryObject<Item> UKULELI = REGISTRY.register("ukuleli", () -> new UkuleliItem());
 	public static final RegistryObject<Item> COMMUNITY_GHOST = REGISTRY.register("community_ghost_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineclashModEntities.COMMUNITY_GHOST, -1, -16711681,
-					new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES)));
+					new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_MCS)));
 	public static final RegistryObject<Item> LEFLOIDSWORD = REGISTRY.register("lefloidsword", () -> new LefloidswordItem());
 	public static final RegistryObject<Item> TWITTER_BIRD = REGISTRY.register("twitter_bird_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineclashModEntities.TWITTER_BIRD, -16744193, -16727843,
-					new Item.Properties().tab(MineclashModTabs.TAB_CLASH_CAPSULES)));
+					new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_MCS)));
 	public static final RegistryObject<Item> COLDMIRRORS_WAND = REGISTRY.register("coldmirrors_wand", () -> new ColdmirrorsWandItem());
 	public static final RegistryObject<Item> TADDL_NOODLEZOOKA = REGISTRY.register("taddl_noodlezooka", () -> new TaddlNoodlezookaItem());
 	public static final RegistryObject<Item> TADDLZOOKA_NOODLES = REGISTRY.register("taddlzooka_noodles", () -> new TaddlzookaNoodlesItem());
