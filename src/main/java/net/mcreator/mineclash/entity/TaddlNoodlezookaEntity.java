@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -18,6 +17,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.mineclash.init.MineclashModItems;
 import net.mcreator.mineclash.init.MineclashModEntities;
 
 import java.util.Random;
@@ -48,7 +48,7 @@ public class TaddlNoodlezookaEntity extends AbstractArrow implements ItemSupplie
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.BLAZE_POWDER);
+		return new ItemStack(MineclashModItems.TADDLZOOKA_NOODLES.get());
 	}
 
 	@Override
@@ -73,7 +73,7 @@ public class TaddlNoodlezookaEntity extends AbstractArrow implements ItemSupplie
 		TaddlNoodlezookaEntity entityarrow = new TaddlNoodlezookaEntity(MineclashModEntities.TADDL_NOODLEZOOKA.get(), entity, world);
 		entityarrow.shoot(entity.getViewVector(1).x, entity.getViewVector(1).y, entity.getViewVector(1).z, power * 2, 0);
 		entityarrow.setSilent(true);
-		entityarrow.setCritArrow(false);
+		entityarrow.setCritArrow(true);
 		entityarrow.setBaseDamage(damage);
 		entityarrow.setKnockback(knockback);
 		world.addFreshEntity(entityarrow);
@@ -90,9 +90,9 @@ public class TaddlNoodlezookaEntity extends AbstractArrow implements ItemSupplie
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5);
-		entityarrow.setKnockback(5);
-		entityarrow.setCritArrow(false);
+		entityarrow.setBaseDamage(10);
+		entityarrow.setKnockback(1);
+		entityarrow.setCritArrow(true);
 		entity.level.addFreshEntity(entityarrow);
 		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(),
 				ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode")), SoundSource.PLAYERS, 1,

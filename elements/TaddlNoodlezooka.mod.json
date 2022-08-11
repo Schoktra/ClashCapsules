@@ -2,9 +2,9 @@
   "_fv": 28,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 2,
+    "renderType": 0,
     "texture": "taddl_noodlezooka_texture",
-    "customModelName": "taddle_noodle_bazooka:default",
+    "customModelName": "Normal",
     "name": "Taddl´s Noodlezooka",
     "specialInfo": [],
     "creativeTab": {
@@ -20,16 +20,16 @@
       "value": "entity.generic.explode"
     },
     "hasGlow": false,
-    "animation": "none",
+    "animation": "crossbow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
-    "bulletDamage": 5.0,
-    "bulletKnockback": 5,
-    "bulletParticles": false,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 1,
+    "bulletParticles": true,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "Items.BLAZE_POWDER"
+      "value": "CUSTOM:TaddlzookaNoodles"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": ""
