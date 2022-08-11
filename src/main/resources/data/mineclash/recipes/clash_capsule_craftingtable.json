@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "mineclash:plain_clashcapsule"
+    },
+    "1": {
+      "item": "mineclash:plain_clashcapsule"
+    },
+    "2": {
+      "item": "mineclash:plain_clashcapsule"
+    },
+    "3": {
+      "item": "mineclash:plain_clashcapsule"
+    },
+    "4": {
+      "item": "minecraft:crafting_table"
+    },
+    "5": {
+      "item": "mineclash:plain_clashcapsule"
+    },
+    "6": {
+      "item": "mineclash:plain_clashcapsule"
+    },
+    "7": {
+      "item": "mineclash:plain_clashcapsule"
+    },
+    "8": {
+      "item": "mineclash:plain_clashcapsule"
+    }
+  },
+  "result": {
+    "item": "mineclash:capsule_crafting_table",
+    "count": 1
+  }
+}

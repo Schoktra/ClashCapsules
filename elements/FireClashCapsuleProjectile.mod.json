@@ -1,0 +1,43 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "fire_clashcapsule",
+    "customModelName": "Normal",
+    "name": "Fire Clash Capsule",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ClashCapsules"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "item.firecharge.use"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Blocks.FIRE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "FireClashCapsuleEffect"
+    },
+    "onBulletHitsEntity": {
+      "name": "FireClashCapsuleEffect"
+    }
+  }
+}

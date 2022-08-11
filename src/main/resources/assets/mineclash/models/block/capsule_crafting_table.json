@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mineclash:blocks/cpasuletablt_bottom",
+    "up": "mineclash:blocks/capsulecrafting_top",
+    "north": "mineclash:blocks/capsulecrafting_back",
+    "east": "mineclash:blocks/capsulecrafting_right",
+    "south": "mineclash:blocks/capsulecrafting_front_and_back",
+    "west": "mineclash:blocks/capsulecrafting_left",
+    "particle": "mineclash:blocks/cpasuletablt_bottom"
+  }
+}

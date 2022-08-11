@@ -1,0 +1,43 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "thunder_clashcapsule",
+    "customModelName": "Normal",
+    "name": "Lighnting Clash Capsule",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ClashCapsules"
+    },
+    "stackSize": 64,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.lightning.thunder"
+    },
+    "hasGlow": true,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "CUSTOM:LighntingClashCapsuleProjectile"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "LighntingClashCapsuleEffect"
+    },
+    "onBulletHitsEntity": {
+      "name": "LighntingClashCapsuleEffect"
+    }
+  }
+}

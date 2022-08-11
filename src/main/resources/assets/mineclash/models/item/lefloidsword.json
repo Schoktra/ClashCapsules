@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mineclash:items/lefloid_sword_with_mustach"
+  }
+}
