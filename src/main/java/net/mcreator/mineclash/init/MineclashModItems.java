@@ -28,6 +28,7 @@ import net.mcreator.mineclash.item.InvisibilityClashCapsuleItem;
 import net.mcreator.mineclash.item.IblalisbratwurstchainItem;
 import net.mcreator.mineclash.item.FlighClashCapsuleItem;
 import net.mcreator.mineclash.item.FireClashCapsuleProjectileItem;
+import net.mcreator.mineclash.item.ColdmirrorwandprojectileItem;
 import net.mcreator.mineclash.item.ColdmirrorsWandItem;
 import net.mcreator.mineclash.item.CloningClashCapsuleItem;
 import net.mcreator.mineclash.item.ClashCapsuleSwordItem;
@@ -64,6 +65,8 @@ public class MineclashModItems {
 			() -> new IblalisbratwurstchainItem());
 	public static final RegistryObject<Item> KELLYBATTLEAXE = REGISTRY.register("kellybattleaxe", () -> new KellybattleaxeItem());
 	public static final RegistryObject<Item> TWEET_FEATHER = REGISTRY.register("tweet_feather", () -> new TweetFeatherItem());
+	public static final RegistryObject<Item> COLDMIRRORWANDPROJECTILE = REGISTRY.register("coldmirrorwandprojectile",
+			() -> new ColdmirrorwandprojectileItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

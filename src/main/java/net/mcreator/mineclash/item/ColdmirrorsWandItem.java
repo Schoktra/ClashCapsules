@@ -74,7 +74,7 @@ public class ColdmirrorsWandItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				ColdmirrorsWandEntity entityarrow = ColdmirrorsWandEntity.shoot(world, entity, world.getRandom(), 1f, 5, 5);
+				ColdmirrorsWandEntity entityarrow = ColdmirrorsWandEntity.shoot(world, entity, world.getRandom(), 5f, 9, 5);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

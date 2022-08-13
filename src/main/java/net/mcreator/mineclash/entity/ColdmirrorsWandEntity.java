@@ -7,7 +7,8 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
@@ -18,6 +19,8 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.mineclash.procedures.ColdmirrorWandProjectileEffectProcedure;
+import net.mcreator.mineclash.init.MineclashModItems;
 import net.mcreator.mineclash.init.MineclashModEntities;
 
 import java.util.Random;
@@ -48,7 +51,7 @@ public class ColdmirrorsWandEntity extends AbstractArrow implements ItemSupplier
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Blocks.OAK_SAPLING);
+		return new ItemStack(MineclashModItems.COLDMIRRORWANDPROJECTILE.get());
 	}
 
 	@Override
@@ -60,6 +63,19 @@ public class ColdmirrorsWandEntity extends AbstractArrow implements ItemSupplier
 	protected void doPostHurtEffects(LivingEntity entity) {
 		super.doPostHurtEffects(entity);
 		entity.setArrowCount(entity.getArrowCount() - 1);
+	}
+
+	@Override
+	public void onHitEntity(EntityHitResult entityHitResult) {
+		super.onHitEntity(entityHitResult);
+		ColdmirrorWandProjectileEffectProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+	}
+
+	@Override
+	public void onHitBlock(BlockHitResult blockHitResult) {
+		super.onHitBlock(blockHitResult);
+		ColdmirrorWandProjectileEffectProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(),
+				blockHitResult.getBlockPos().getZ());
 	}
 
 	@Override
@@ -88,9 +104,9 @@ public class ColdmirrorsWandEntity extends AbstractArrow implements ItemSupplier
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
-		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
+		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 5f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5);
+		entityarrow.setBaseDamage(9);
 		entityarrow.setKnockback(5);
 		entityarrow.setCritArrow(true);
 		entity.level.addFreshEntity(entityarrow);

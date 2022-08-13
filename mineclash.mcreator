@@ -695,6 +695,43 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tweet_feather"
+    },
+    {
+      "name": "Coldmirrorwandprojectile",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coldmirrorwandprojectile"
+    },
+    {
+      "name": "ColdmirrorWandProjectileEffect",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coldmirror_wand_projectile_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CapsuleEffects"
     }
   ],
   "variable_elements": [],
@@ -702,8 +739,8 @@
   "language_map": {
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.tweet_feather": "Tweet Feather",
+      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",
@@ -714,6 +751,7 @@
       "item.mineclash.fligh_clash_capsule": "Flight ClashCapsule",
       "item.mineclash.coldmirrors_wand": "Coldmirrors Wand",
       "item.mineclash.taddlzooka_noodles": "Taddlzooka Noodles",
+      "item.mineclash.coldmirrorwandprojectile": "Coldmirrorwandprojectile",
       "item.mineclash.iblalisbratwurstchain": "IBlali´s Bratwurst-Chain",
       "itemGroup.tabclash_capsules": "MineClash Clashcapsules",
       "entity.mineclash.twitter_bird": "Tweet",
