@@ -13,6 +13,7 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -33,6 +34,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.mineclash.init.MineclashModItems;
 import net.mcreator.mineclash.init.MineclashModEntities;
 
 import java.util.Random;
@@ -68,8 +70,7 @@ public class CommunityGhostEntity extends PathfinderMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8, 20) {
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				Random random = CommunityGhostEntity.this.getRandom();
@@ -79,6 +80,7 @@ public class CommunityGhostEntity extends PathfinderMob {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8));
 		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(4, new FloatGoal(this));
 	}
@@ -86,6 +88,11 @@ public class CommunityGhostEntity extends PathfinderMob {
 	@Override
 	public MobType getMobType() {
 		return MobType.ILLAGER;
+	}
+
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(MineclashModItems.PLAIN_CLASHCAPSULE.get()));
 	}
 
 	@Override
