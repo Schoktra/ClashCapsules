@@ -19,7 +19,7 @@ public class UkuleliItem extends ShovelItem {
 	public UkuleliItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 50;
 			}
 
 			public float getSpeed() {

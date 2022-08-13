@@ -23,6 +23,7 @@ import net.mcreator.mineclash.item.PlainPowerbeanItem;
 import net.mcreator.mineclash.item.LighntingClashCapsuleProjectileItem;
 import net.mcreator.mineclash.item.LefloidswordItem;
 import net.mcreator.mineclash.item.InvisibilityClashCapsuleItem;
+import net.mcreator.mineclash.item.IblalisbratwurstchainItem;
 import net.mcreator.mineclash.item.FlighClashCapsuleItem;
 import net.mcreator.mineclash.item.FireClashCapsuleProjectileItem;
 import net.mcreator.mineclash.item.ColdmirrorsWandItem;
@@ -57,6 +58,8 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> COLDMIRRORS_WAND = REGISTRY.register("coldmirrors_wand", () -> new ColdmirrorsWandItem());
 	public static final RegistryObject<Item> TADDL_NOODLEZOOKA = REGISTRY.register("taddl_noodlezooka", () -> new TaddlNoodlezookaItem());
 	public static final RegistryObject<Item> TADDLZOOKA_NOODLES = REGISTRY.register("taddlzooka_noodles", () -> new TaddlzookaNoodlesItem());
+	public static final RegistryObject<Item> IBLALISBRATWURSTCHAIN = REGISTRY.register("iblalisbratwurstchain",
+			() -> new IblalisbratwurstchainItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

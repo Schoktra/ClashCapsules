@@ -654,6 +654,31 @@
         ]
       },
       "path": "~/CapsuleTable/Recipes"
+    },
+    {
+      "name": "Iblalisbratwurstchain",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iblalisbratwurstchain"
+    },
+    {
+      "name": "BratwurstChainRecipe",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bratwurst_chain_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleTable/Recipes"
     }
   ],
   "variable_elements": [],
@@ -672,6 +697,7 @@
       "item.mineclash.fligh_clash_capsule": "Flight ClashCapsule",
       "item.mineclash.coldmirrors_wand": "Coldmirrors Wand",
       "item.mineclash.taddlzooka_noodles": "Taddlzooka Noodles",
+      "item.mineclash.iblalisbratwurstchain": "IBlali´s Bratwurst-Chain",
       "itemGroup.tabclash_capsules": "MineClash Clashcapsules",
       "entity.mineclash.twitter_bird": "Tweet",
       "entity.mineclash.player_clone": "Player Clone (WIP)",
