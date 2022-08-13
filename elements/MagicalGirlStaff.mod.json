@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "dummy",
+    "texture": "magical_girl_staff",
     "customModelName": "Normal",
-    "name": "Magical Girl Staff",
+    "name": "Chan´s Magical Girl Staff",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:MineClashWeapons"
