@@ -29,7 +29,7 @@ public class TaddlNoodlezookaItem extends Item {
 
 	@Override
 	public UseAnim getUseAnimation(ItemStack itemstack) {
-		return UseAnim.BOW;
+		return UseAnim.NONE;
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class TaddlNoodlezookaItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				TaddlNoodlezookaEntity entityarrow = TaddlNoodlezookaEntity.shoot(world, entity, world.getRandom(), 1f, 20, 1);
+				TaddlNoodlezookaEntity entityarrow = TaddlNoodlezookaEntity.shoot(world, entity, world.getRandom(), 3f, 20, 1);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

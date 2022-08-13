@@ -756,8 +756,8 @@
   "language_map": {
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.tweet_feather": "Tweet Feather",
+      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",
@@ -776,7 +776,7 @@
       "item.mineclash.fire_clash_capsule_projectile": "Fire Clash Capsule",
       "itemGroup.tabmine_clash_mcs": "MineClash Mcs",
       "item.mineclash.ukuleli": "Ukuleli",
-      "item.mineclash.kellybattleaxe": "Kellybattleaxe",
+      "item.mineclash.kellybattleaxe": "Kelly´s battle Axe",
       "entity.mineclash.community_ghost": "Community Ghost",
       "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
       "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",
