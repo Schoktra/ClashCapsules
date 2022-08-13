@@ -15,7 +15,7 @@
       "value": ""
     },
     "shootConstantly": false,
-    "usageCount": 200,
+    "usageCount": 20,
     "actionSound": {
       "value": "entity.generic.explode"
     },
@@ -24,7 +24,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
-    "bulletDamage": 10.0,
+    "bulletDamage": 20.0,
     "bulletKnockback": 1,
     "bulletParticles": true,
     "bulletIgnitesFire": false,

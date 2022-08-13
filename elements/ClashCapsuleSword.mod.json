@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "clashcapsule_sword",
     "customModelName": "Normal",
-    "name": "HondofBlood Sword",
+    "name": "HandOfBlood Sword",
     "specialInfo": [
       "The sword that killed the Kaiju and saved Dagi Bee"
     ],
@@ -16,9 +16,9 @@
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 10.0,
-    "usageCount": 80,
+    "enchantability": 0,
+    "damageVsEntity": 15.0,
+    "usageCount": 40,
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [],

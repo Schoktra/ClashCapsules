@@ -679,6 +679,14 @@
         ]
       },
       "path": "~/CapsuleTable/Recipes"
+    },
+    {
+      "name": "Kellybattleaxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kellybattleaxe"
     }
   ],
   "variable_elements": [],
@@ -692,7 +700,7 @@
       "item.mineclash.lefloidsword": "Lefloidsword",
       "item.mineclash.time_clash_capsule": "Time ClashCapsule",
       "item.mineclash.community_ghost_spawn_egg": "Community Ghost Spawn Egg",
-      "item.mineclash.clash_capsule_sword": "HondofBlood Sword",
+      "item.mineclash.clash_capsule_sword": "HandOfBlood Sword",
       "block.mineclash.capsule_crafting_table": "ClashCapsule Craftingtable",
       "item.mineclash.fligh_clash_capsule": "Flight ClashCapsule",
       "item.mineclash.coldmirrors_wand": "Coldmirrors Wand",
@@ -704,6 +712,7 @@
       "item.mineclash.fire_clash_capsule_projectile": "Fire Clash Capsule",
       "itemGroup.tabmine_clash_mcs": "MineClash Mcs",
       "item.mineclash.ukuleli": "Ukuleli",
+      "item.mineclash.kellybattleaxe": "Kellybattleaxe",
       "entity.mineclash.community_ghost": "Community Ghost",
       "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
       "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",

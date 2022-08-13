@@ -18,7 +18,7 @@ import net.mcreator.mineclash.entity.TaddlNoodlezookaEntity;
 
 public class TaddlNoodlezookaItem extends Item {
 	public TaddlNoodlezookaItem() {
-		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(200));
+		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(20));
 	}
 
 	@Override
@@ -44,7 +44,7 @@ public class TaddlNoodlezookaItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				TaddlNoodlezookaEntity entityarrow = TaddlNoodlezookaEntity.shoot(world, entity, world.getRandom(), 1f, 10, 1);
+				TaddlNoodlezookaEntity entityarrow = TaddlNoodlezookaEntity.shoot(world, entity, world.getRandom(), 1f, 20, 1);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

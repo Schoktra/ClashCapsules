@@ -22,7 +22,7 @@ public class ClashCapsuleSwordItem extends SwordItem {
 	public ClashCapsuleSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 80;
+				return 40;
 			}
 
 			public float getSpeed() {
@@ -30,7 +30,7 @@ public class ClashCapsuleSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 8f;
+				return 13f;
 			}
 
 			public int getLevel() {
@@ -38,7 +38,7 @@ public class ClashCapsuleSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 0;
 			}
 
 			public Ingredient getRepairIngredient() {

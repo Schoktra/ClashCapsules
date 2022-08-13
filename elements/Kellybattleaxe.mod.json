@@ -3,24 +3,22 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "lefloid_sword_with_mustach",
+    "texture": "kelly_battleaxe",
     "customModelName": "Normal",
-    "name": "Lefloidsword",
-    "specialInfo": [
-      "LeFloid´s signature weapon of choice"
-    ],
+    "name": "Kellybattleaxe",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:MineClashWeapons"
     },
-    "toolType": "Sword",
-    "harvestLevel": 1,
+    "toolType": "Axe",
+    "harvestLevel": 0,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
-    "enchantability": 0,
-    "damageVsEntity": 9.0,
-    "usageCount": 150,
+    "enchantability": 2,
+    "damageVsEntity": 8.0,
+    "usageCount": 70,
     "blocksAffected": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
