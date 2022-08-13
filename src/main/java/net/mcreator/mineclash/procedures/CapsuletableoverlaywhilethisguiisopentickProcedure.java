@@ -23,5 +23,6 @@ public class CapsuletableoverlaywhilethisguiisopentickProcedure {
 		TimeCapsuleRecipeProcedure.execute(entity);
 		BratwurstChainRecipeProcedure.execute(entity);
 		FlightCapsuleRecipeProcedure.execute(entity);
+		WeaponCapsuleRecipeProcedure.execute(entity);
 	}
 }
