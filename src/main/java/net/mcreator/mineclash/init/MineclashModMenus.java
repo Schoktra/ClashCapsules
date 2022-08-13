@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.mcreator.mineclash.world.inventory.ManualtemplateMenu;
 import net.mcreator.mineclash.world.inventory.CapsueltableoverlayMenu;
 
 import java.util.List;
@@ -22,6 +23,8 @@ public class MineclashModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<CapsueltableoverlayMenu> CAPSUELTABLEOVERLAY = register("capsueltableoverlay",
 			(id, inv, extraData) -> new CapsueltableoverlayMenu(id, inv, extraData));
+	public static final MenuType<ManualtemplateMenu> MANUALTEMPLATE = register("manualtemplate",
+			(id, inv, extraData) -> new ManualtemplateMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

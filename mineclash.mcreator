@@ -782,6 +782,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "coldmirror_wand_bamboo"
+    },
+    {
+      "name": "Manualtemplate",
+      "type": "gui",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manualtemplate",
+      "path": "~/MineClash Manual"
     }
   ],
   "variable_elements": [],
@@ -789,8 +798,8 @@
   "language_map": {
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.tweet_feather": "Tweet Feather",
+      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",

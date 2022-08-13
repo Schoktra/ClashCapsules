@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.mineclash.client.gui.ManualtemplateScreen;
 import net.mcreator.mineclash.client.gui.CapsueltableoverlayScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class MineclashModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(MineclashModMenus.CAPSUELTABLEOVERLAY, CapsueltableoverlayScreen::new);
+			MenuScreens.register(MineclashModMenus.MANUALTEMPLATE, ManualtemplateScreen::new);
 		});
 	}
 }
