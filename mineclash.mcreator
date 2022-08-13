@@ -649,6 +649,23 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "mine_clash_mcs"
+    },
+    {
+      "name": "InvisibleCapsuleRecipe",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invisible_capsule_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleTable/Recipes"
     }
   ],
   "variable_elements": [],
