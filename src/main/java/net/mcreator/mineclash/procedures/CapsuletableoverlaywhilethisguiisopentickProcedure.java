@@ -21,5 +21,6 @@ public class CapsuletableoverlaywhilethisguiisopentickProcedure {
 		FireCapsuleRecipeProcedure.execute(entity);
 		TimeCapsuleRecipeProcedure.execute(entity);
 		InvisibleCapsuleRecipeProcedure.execute(entity);
+		UkuleliRecipeProcedure.execute(entity);
 	}
 }
