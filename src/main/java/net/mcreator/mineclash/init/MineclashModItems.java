@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mineclash.item.WeaponClashCapsuleItem;
 import net.mcreator.mineclash.item.UkuleliItem;
+import net.mcreator.mineclash.item.TweetFeatherItem;
 import net.mcreator.mineclash.item.TimeClashCapsuleItem;
 import net.mcreator.mineclash.item.TaddlzookaNoodlesItem;
 import net.mcreator.mineclash.item.TaddlNoodlezookaItem;
@@ -62,6 +63,7 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> IBLALISBRATWURSTCHAIN = REGISTRY.register("iblalisbratwurstchain",
 			() -> new IblalisbratwurstchainItem());
 	public static final RegistryObject<Item> KELLYBATTLEAXE = REGISTRY.register("kellybattleaxe", () -> new KellybattleaxeItem());
+	public static final RegistryObject<Item> TWEET_FEATHER = REGISTRY.register("tweet_feather", () -> new TweetFeatherItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

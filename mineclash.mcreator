@@ -687,6 +687,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kellybattleaxe"
+    },
+    {
+      "name": "TweetFeather",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tweet_feather"
     }
   ],
   "variable_elements": [],
@@ -695,6 +703,7 @@
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
       "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
+      "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",
