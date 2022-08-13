@@ -26,5 +26,6 @@ public class MineclashModEntityRenderers {
 		event.registerEntityRenderer(MineclashModEntities.TWITTER_BIRD.get(), TwitterBirdRenderer::new);
 		event.registerEntityRenderer(MineclashModEntities.COLDMIRRORS_WAND.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineclashModEntities.TADDL_NOODLEZOOKA.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MineclashModEntities.COLDMIRROR_WAND_BAMBOO.get(), ThrownItemRenderer::new);
 	}
 }

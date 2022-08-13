@@ -23,6 +23,7 @@ import net.mcreator.mineclash.entity.LighntingClashCapsuleProjectileEntity;
 import net.mcreator.mineclash.entity.FireClashCapsuleProjectileEntity;
 import net.mcreator.mineclash.entity.CommunityGhostEntity;
 import net.mcreator.mineclash.entity.ColdmirrorsWandEntity;
+import net.mcreator.mineclash.entity.ColdmirrorWandBambooEntity;
 import net.mcreator.mineclash.MineclashMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -60,6 +61,10 @@ public class MineclashModEntities {
 	public static final RegistryObject<EntityType<TaddlNoodlezookaEntity>> TADDL_NOODLEZOOKA = register("projectile_taddl_noodlezooka",
 			EntityType.Builder.<TaddlNoodlezookaEntity>of(TaddlNoodlezookaEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(TaddlNoodlezookaEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ColdmirrorWandBambooEntity>> COLDMIRROR_WAND_BAMBOO = register("projectile_coldmirror_wand_bamboo",
+			EntityType.Builder.<ColdmirrorWandBambooEntity>of(ColdmirrorWandBambooEntity::new, MobCategory.MISC)
+					.setCustomClientFactory(ColdmirrorWandBambooEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

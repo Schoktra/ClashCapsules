@@ -3,12 +3,10 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "clashcapsule_sword",
+    "texture": "dummy",
     "customModelName": "Normal",
-    "name": "HandOfBlood Sword",
-    "specialInfo": [
-      "HandOfBlood´s sword that killed a Kaiju and saved Dagi Bee"
-    ],
+    "name": "Magical Girl Staff",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:MineClashWeapons"
     },
@@ -17,10 +15,10 @@
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 0,
-    "damageVsEntity": 15.0,
-    "usageCount": 40,
+    "damageVsEntity": 6.0,
+    "usageCount": 100,
     "blocksAffected": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

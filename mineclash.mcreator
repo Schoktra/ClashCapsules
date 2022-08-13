@@ -766,6 +766,22 @@
         ]
       },
       "path": "~/CapsuleTable/Recipes"
+    },
+    {
+      "name": "MagicalGirlStaff",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magical_girl_staff"
+    },
+    {
+      "name": "ColdmirrorWandBamboo",
+      "type": "rangeditem",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coldmirror_wand_bamboo"
     }
   ],
   "variable_elements": [],
@@ -773,8 +789,8 @@
   "language_map": {
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.tweet_feather": "Tweet Feather",
+      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",
@@ -791,6 +807,7 @@
       "entity.mineclash.twitter_bird": "Tweet",
       "entity.mineclash.player_clone": "Player Clone (WIP)",
       "item.mineclash.fire_clash_capsule_projectile": "Fire Clash Capsule",
+      "item.mineclash.magical_girl_staff": "Magical Girl Staff",
       "itemGroup.tabmine_clash_mcs": "MineClash Mcs",
       "item.mineclash.ukuleli": "Ukuleli",
       "item.mineclash.kellybattleaxe": "Kelly´s battle Axe",
@@ -798,6 +815,7 @@
       "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
       "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",
       "item.mineclash.twitter_bird_spawn_egg": "Tweet Spawn Egg",
+      "item.mineclash.coldmirror_wand_bamboo": "Coldmirrors Wand",
       "item.mineclash.lighnting_clash_capsule_projectile": "Lighnting Clash Capsule",
       "item.mineclash.plain_clashcapsule": "Plain ClashCapsule"
     }

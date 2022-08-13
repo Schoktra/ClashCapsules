@@ -50,7 +50,7 @@ public class ClashCapsuleSwordItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("The sword that killed the Kaiju and saved Dagi Bee"));
+		list.add(new TextComponent("HandOfBlood\u00B4s sword that killed a Kaiju and saved Dagi Bee"));
 	}
 
 	@Override

@@ -3,16 +3,16 @@ package net.mcreator.mineclash.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
 
 import net.mcreator.mineclash.init.MineclashModTabs;
 
-public class KellybattleaxeItem extends AxeItem {
-	public KellybattleaxeItem() {
+public class MagicalGirlStaffItem extends SwordItem {
+	public MagicalGirlStaffItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 120;
+				return 100;
 			}
 
 			public float getSpeed() {
@@ -20,20 +20,20 @@ public class KellybattleaxeItem extends AxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 4f;
 			}
 
 			public int getLevel() {
-				return 0;
+				return 1;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 0;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS));
+		}, 3, -3f, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS));
 	}
 }
