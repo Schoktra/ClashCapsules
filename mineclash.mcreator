@@ -139,35 +139,6 @@
       "path": "~/CapsuleEffects"
     },
     {
-      "name": "SlownessClashCapsuleEffectB",
-      "type": "procedure",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "slowness_clash_capsule_effect_b",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CapsuleEffects"
-    },
-    {
       "name": "CpasuleCraftingtable",
       "type": "block",
       "sortid": 10,
@@ -657,6 +628,23 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_capsule_recipe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleTable/Recipes"
+    },
+    {
+      "name": "UkuleliRecipe",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ukuleli_recipe",
       "metadata": {
         "dependencies": [
           {
