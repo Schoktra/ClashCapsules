@@ -16,10 +16,10 @@ public class CapsuletableoverlaywhilethisguiisopentickProcedure {
 			((Slot) _slots.get(9)).set(ItemStack.EMPTY);
 			_player.containerMenu.broadcastChanges();
 		}
-		SampleProcedure.execute(entity);
 		CloningCapsuleRecipeProcedure.execute(entity);
 		LightningCapsuleRecipeProcedure.execute(entity);
 		FireCapsuleRecipeProcedure.execute(entity);
 		TimeCapsuleRecipeProcedure.execute(entity);
+		InvisibleCapsuleRecipeProcedure.execute(entity);
 	}
 }

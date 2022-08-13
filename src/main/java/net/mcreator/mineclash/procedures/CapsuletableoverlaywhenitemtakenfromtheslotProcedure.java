@@ -18,6 +18,5 @@ public class CapsuletableoverlaywhenitemtakenfromtheslotProcedure {
 				_player.containerMenu.broadcastChanges();
 			}
 		}
-		SampleProcedure.execute(entity);
 	}
 }
