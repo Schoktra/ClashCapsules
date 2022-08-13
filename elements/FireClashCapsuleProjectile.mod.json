@@ -19,7 +19,7 @@
     "actionSound": {
       "value": "item.firecharge.use"
     },
-    "hasGlow": false,
+    "hasGlow": true,
     "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,

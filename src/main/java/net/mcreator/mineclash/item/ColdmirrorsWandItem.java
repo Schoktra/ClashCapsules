@@ -1,9 +1,6 @@
 
 package net.mcreator.mineclash.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.ItemStack;
@@ -28,7 +25,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class ColdmirrorsWandItem extends Item {
 	public ColdmirrorsWandItem() {
-		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(150));
+		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(75));
 	}
 
 	@Override
@@ -45,12 +42,6 @@ public class ColdmirrorsWandItem extends Item {
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
 		return 72000;
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 
 	@Override
@@ -74,7 +65,7 @@ public class ColdmirrorsWandItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				ColdmirrorsWandEntity entityarrow = ColdmirrorsWandEntity.shoot(world, entity, world.getRandom(), 5f, 9, 5);
+				ColdmirrorsWandEntity entityarrow = ColdmirrorsWandEntity.shoot(world, entity, world.getRandom(), 5f, 9, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}
