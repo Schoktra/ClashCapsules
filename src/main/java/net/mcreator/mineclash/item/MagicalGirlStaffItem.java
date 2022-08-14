@@ -12,7 +12,7 @@ public class MagicalGirlStaffItem extends SwordItem {
 	public MagicalGirlStaffItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 75;
 			}
 
 			public float getSpeed() {

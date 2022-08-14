@@ -18,7 +18,7 @@ import net.mcreator.mineclash.entity.TaddlNoodlezookaEntity;
 
 public class TaddlNoodlezookaItem extends Item {
 	public TaddlNoodlezookaItem() {
-		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(20));
+		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(50));
 	}
 
 	@Override

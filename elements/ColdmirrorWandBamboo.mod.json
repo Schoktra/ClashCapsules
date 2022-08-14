@@ -15,7 +15,7 @@
       "value": ""
     },
     "shootConstantly": false,
-    "usageCount": 75,
+    "usageCount": 150,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
@@ -24,7 +24,7 @@
     "enableMeleeDamage": true,
     "damageVsEntity": 5.0,
     "bulletPower": 5.0,
-    "bulletDamage": 9.0,
+    "bulletDamage": 15.0,
     "bulletKnockback": 0,
     "bulletParticles": true,
     "bulletIgnitesFire": false,

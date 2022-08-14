@@ -25,7 +25,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class ColdmirrorWandBambooItem extends Item {
 	public ColdmirrorWandBambooItem() {
-		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(75));
+		super(new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_WEAPONS).durability(150));
 	}
 
 	@Override
@@ -65,7 +65,7 @@ public class ColdmirrorWandBambooItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-				ColdmirrorWandBambooEntity entityarrow = ColdmirrorWandBambooEntity.shoot(world, entity, world.getRandom(), 5f, 9, 0);
+				ColdmirrorWandBambooEntity entityarrow = ColdmirrorWandBambooEntity.shoot(world, entity, world.getRandom(), 5f, 15, 0);
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 			}

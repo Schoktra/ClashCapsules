@@ -29,13 +29,11 @@ public class ManualPlayerSpawnProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (true && (entity instanceof Player _playerHasItem
+		if (entity instanceof Player _playerHasItem
 				? _playerHasItem.getInventory().contains(new ItemStack(MineclashModItems.MINE_CLASH_MANUAL.get()))
-				: false)) {
+				: false) {
 			entity.hurt(DamageSource.GENERIC, 0);
-		} else if (true == false && !(entity instanceof Player _playerHasItem
-				? _playerHasItem.getInventory().contains(new ItemStack(MineclashModItems.MINE_CLASH_MANUAL.get()))
-				: false)) {
+		} else {
 			if (entity instanceof Player _player) {
 				ItemStack _setstack = new ItemStack(MineclashModItems.MINE_CLASH_MANUAL.get());
 				_setstack.setCount(1);
