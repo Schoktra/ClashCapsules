@@ -1,0 +1,181 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 123,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 240,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 150,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "What is MineClash ?",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "What is MineClash ?",
+          "x": 159,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "MineClash is a passion",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "MineClash is a passion",
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "projeced based on the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "projeced based on the",
+          "x": 159,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "YouTube series called",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "YouTube series called",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "\"TubeClash\".",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "\"TubeClash\".",
+          "x": 159,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "TubeClash pitted small",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "TubeClash pitted small",
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "YouTuber aginst one",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "YouTuber aginst one",
+          "x": 159,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "another in form of",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "another in form of",
+          "x": 159,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "two \"Clashes\", A and B.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "two \"Clashes\", A and B.",
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "logo2b.png",
+          "use1Xscale": false,
+          "name": "logo2b.png",
+          "x": 165,
+          "y": 139
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

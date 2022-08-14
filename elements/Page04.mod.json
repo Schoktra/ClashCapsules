@@ -1,0 +1,158 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 123,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 240,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 150,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Every MineClash item",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Every MineClash item",
+          "x": 159,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "is based off of stuff",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "is based off of stuff",
+          "x": 159,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "that occured in the",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "that occured in the",
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "series. From mobs",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "series. From mobs",
+          "x": 159,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to items, everything",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "to items, everything",
+          "x": 159,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "has its roots in",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "has its roots in",
+          "x": 159,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the TubeClash",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "the TubeClash",
+          "x": 159,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "franchise.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "franchise.",
+          "x": 159,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

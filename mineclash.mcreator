@@ -791,6 +791,42 @@
       "locked_code": false,
       "registry_name": "manualtemplate",
       "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page01",
+      "type": "gui",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_01",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page02",
+      "type": "gui",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_02",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page03",
+      "type": "gui",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_03",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page04",
+      "type": "gui",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_04",
+      "path": "~/MineClash Manual"
     }
   ],
   "variable_elements": [],
@@ -798,8 +834,8 @@
   "language_map": {
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
+      "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",
