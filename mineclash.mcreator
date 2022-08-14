@@ -935,6 +935,67 @@
       "locked_code": false,
       "registry_name": "page_16",
       "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page17",
+      "type": "gui",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_17",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page18",
+      "type": "gui",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_18",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page19",
+      "type": "gui",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_19",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "BAMBUS",
+      "type": "achievement",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bambus"
+    },
+    {
+      "name": "MineClashManual",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mine_clash_manual",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "ManualPlayerSpawn",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manual_player_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CapsuleEffects"
     }
   ],
   "variable_elements": [],
@@ -944,7 +1005,9 @@
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
       "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
+      "item.mineclash.mine_clash_manual": "MineClash Manual",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
+      "advancements.bambus.descr": "Obtain the Bamboo Coldmirror Wand",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",
       "item.mineclash.time_clash_capsule": "Time ClashCapsule",
@@ -968,6 +1031,7 @@
       "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
       "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",
       "item.mineclash.twitter_bird_spawn_egg": "Tweet Spawn Egg",
+      "advancements.bambus.title": "BAMBUS!!!",
       "item.mineclash.coldmirror_wand_bamboo": "Coldmirrors Wand",
       "item.mineclash.lighnting_clash_capsule_projectile": "Lighnting Clash Capsule",
       "item.mineclash.plain_clashcapsule": "Plain ClashCapsule"

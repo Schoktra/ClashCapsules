@@ -11,6 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.mineclash.client.gui.Page19Screen;
+import net.mcreator.mineclash.client.gui.Page18Screen;
+import net.mcreator.mineclash.client.gui.Page17Screen;
 import net.mcreator.mineclash.client.gui.Page16Screen;
 import net.mcreator.mineclash.client.gui.Page15Screen;
 import net.mcreator.mineclash.client.gui.Page14Screen;
@@ -53,6 +56,9 @@ public class MineclashModScreens {
 			MenuScreens.register(MineclashModMenus.PAGE_14, Page14Screen::new);
 			MenuScreens.register(MineclashModMenus.PAGE_15, Page15Screen::new);
 			MenuScreens.register(MineclashModMenus.PAGE_16, Page16Screen::new);
+			MenuScreens.register(MineclashModMenus.PAGE_17, Page17Screen::new);
+			MenuScreens.register(MineclashModMenus.PAGE_18, Page18Screen::new);
+			MenuScreens.register(MineclashModMenus.PAGE_19, Page19Screen::new);
 		});
 	}
 }

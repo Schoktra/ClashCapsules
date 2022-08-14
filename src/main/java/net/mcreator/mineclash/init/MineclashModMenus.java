@@ -12,6 +12,9 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.mcreator.mineclash.world.inventory.Page19Menu;
+import net.mcreator.mineclash.world.inventory.Page18Menu;
+import net.mcreator.mineclash.world.inventory.Page17Menu;
 import net.mcreator.mineclash.world.inventory.Page16Menu;
 import net.mcreator.mineclash.world.inventory.Page15Menu;
 import net.mcreator.mineclash.world.inventory.Page14Menu;
@@ -57,6 +60,9 @@ public class MineclashModMenus {
 	public static final MenuType<Page14Menu> PAGE_14 = register("page_14", (id, inv, extraData) -> new Page14Menu(id, inv, extraData));
 	public static final MenuType<Page15Menu> PAGE_15 = register("page_15", (id, inv, extraData) -> new Page15Menu(id, inv, extraData));
 	public static final MenuType<Page16Menu> PAGE_16 = register("page_16", (id, inv, extraData) -> new Page16Menu(id, inv, extraData));
+	public static final MenuType<Page17Menu> PAGE_17 = register("page_17", (id, inv, extraData) -> new Page17Menu(id, inv, extraData));
+	public static final MenuType<Page18Menu> PAGE_18 = register("page_18", (id, inv, extraData) -> new Page18Menu(id, inv, extraData));
+	public static final MenuType<Page19Menu> PAGE_19 = register("page_19", (id, inv, extraData) -> new Page19Menu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

@@ -23,17 +23,6 @@
       {
         "type": "button",
         "data": {
-          "text": "Next",
-          "width": 46,
-          "height": 20,
-          "name": "Next",
-          "x": 240,
-          "y": 206
-        }
-      },
-      {
-        "type": "button",
-        "data": {
           "text": "Back",
           "width": 46,
           "height": 20,
@@ -45,38 +34,25 @@
       {
         "type": "label",
         "data": {
-          "text": "Crafting Recipes",
+          "text": "Credits",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "Crafting Recipes",
-          "x": 168,
-          "y": 35
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "MineClash offers a",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "MineClash offers a",
+          "name": "Credits",
           "x": 159,
-          "y": 53
+          "y": 44
         }
       },
       {
         "type": "label",
         "data": {
-          "text": "big varity of",
+          "text": "Mod designed by",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "big varity of",
+          "name": "Mod designed by",
           "x": 159,
           "y": 62
         }
@@ -84,12 +60,12 @@
       {
         "type": "label",
         "data": {
-          "text": "items, therefor",
+          "text": "NerdMuffin",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "items, therefor",
+          "name": "NerdMuffin",
           "x": 159,
           "y": 71
         }
@@ -97,25 +73,12 @@
       {
         "type": "label",
         "data": {
-          "text": "there are a big",
+          "text": "With programming by",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "there are a big",
-          "x": 159,
-          "y": 80
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "amount of crafting",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "amount of crafting",
+          "name": "With programming by",
           "x": 159,
           "y": 89
         }
@@ -123,12 +86,12 @@
       {
         "type": "label",
         "data": {
-          "text": "recipes.",
+          "text": "Schoktra",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "recipes.",
+          "name": "Schoktra",
           "x": 159,
           "y": 98
         }
@@ -136,12 +99,12 @@
       {
         "type": "label",
         "data": {
-          "text": "Every recipe (except",
+          "text": "Based of \"TubeClash\",",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "Every recipe (except",
+          "name": "Based of \"TubeClash\",",
           "x": 159,
           "y": 116
         }
@@ -149,12 +112,12 @@
       {
         "type": "label",
         "data": {
-          "text": "for the capasule",
+          "text": "made by",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "for the capasule",
+          "name": "made by",
           "x": 159,
           "y": 125
         }
@@ -162,12 +125,12 @@
       {
         "type": "label",
         "data": {
-          "text": "crafting table)",
+          "text": "darkviktorystudios",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "crafting table)",
+          "name": "darkviktorystudios",
           "x": 159,
           "y": 134
         }
@@ -175,40 +138,27 @@
       {
         "type": "label",
         "data": {
-          "text": "can only be crafted",
+          "text": "Thank you",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "can only be crafted",
-          "x": 159,
-          "y": 143
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "on the Capsule",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "on the Capsule",
-          "x": 159,
-          "y": 152
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "text": "Crafting Table.",
-          "color": {
-            "value": -16777216,
-            "falpha": 0.0
-          },
-          "name": "Crafting Table.",
-          "x": 159,
+          "name": "Thank you",
+          "x": 186,
           "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for playing",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for playing",
+          "x": 186,
+          "y": 170
         }
       }
     ],

@@ -21,6 +21,7 @@ import net.mcreator.mineclash.item.TimeClashCapsuleItem;
 import net.mcreator.mineclash.item.TaddlzookaNoodlesItem;
 import net.mcreator.mineclash.item.TaddlNoodlezookaItem;
 import net.mcreator.mineclash.item.PlainPowerbeanItem;
+import net.mcreator.mineclash.item.MineClashManualItem;
 import net.mcreator.mineclash.item.MagicalGirlStaffItem;
 import net.mcreator.mineclash.item.LighntingClashCapsuleProjectileItem;
 import net.mcreator.mineclash.item.LefloidswordItem;
@@ -72,6 +73,7 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> MAGICAL_GIRL_STAFF = REGISTRY.register("magical_girl_staff", () -> new MagicalGirlStaffItem());
 	public static final RegistryObject<Item> COLDMIRROR_WAND_BAMBOO = REGISTRY.register("coldmirror_wand_bamboo",
 			() -> new ColdmirrorWandBambooItem());
+	public static final RegistryObject<Item> MINE_CLASH_MANUAL = REGISTRY.register("mine_clash_manual", () -> new MineClashManualItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

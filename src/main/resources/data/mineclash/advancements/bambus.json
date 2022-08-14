@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "mineclash:coldmirror_wand_bamboo"
+    },
+    "title": {
+      "translate": "advancements.bambus.title"
+    },
+    "description": {
+      "translate": "advancements.bambus.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "bambus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mineclash:coldmirror_wand_bamboo"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

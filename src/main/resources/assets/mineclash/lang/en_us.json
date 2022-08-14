@@ -2,7 +2,9 @@
   "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
   "item.mineclash.tweet_feather": "Tweet Feather",
   "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
+  "item.mineclash.mine_clash_manual": "MineClash Manual",
   "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
+  "advancements.bambus.descr": "Obtain the Bamboo Coldmirror Wand",
   "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
   "item.mineclash.lefloidsword": "Lefloidsword",
   "item.mineclash.time_clash_capsule": "Time ClashCapsule",
@@ -26,6 +28,7 @@
   "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
   "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",
   "item.mineclash.twitter_bird_spawn_egg": "Tweet Spawn Egg",
+  "advancements.bambus.title": "BAMBUS!!!",
   "item.mineclash.coldmirror_wand_bamboo": "Coldmirrors Wand",
   "item.mineclash.lighnting_clash_capsule_projectile": "Lighnting Clash Capsule",
   "item.mineclash.plain_clashcapsule": "Plain ClashCapsule"

@@ -45,14 +45,24 @@
       {
         "type": "label",
         "data": {
-          "text": "Invisibility Capsule",
+          "text": "Ukuleli",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "Invisibility Capsule",
-          "x": 159,
+          "name": "Ukuleli",
+          "x": 195,
           "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ukuleli_cc.png",
+          "use1Xscale": false,
+          "name": "ukuleli_cc.png",
+          "x": 159,
+          "y": 53
         }
       },
       {
@@ -71,24 +81,27 @@
       {
         "type": "label",
         "data": {
-          "text": "8x Glass blocks",
+          "text": "3x Oak Planks",
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "name": "8x Glass blocks",
+          "name": "3x Oak Planks",
           "x": 159,
-          "y": 161
+          "y": 152
         }
       },
       {
-        "type": "image",
+        "type": "label",
         "data": {
-          "image": "invisibil_cc.png",
-          "use1Xscale": false,
-          "name": "invisibil_cc.png",
+          "text": "1x Stick",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "1x Stick",
           "x": 159,
-          "y": 53
+          "y": 161
         }
       }
     ],

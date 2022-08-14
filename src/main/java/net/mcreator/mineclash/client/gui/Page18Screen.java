@@ -11,20 +11,20 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.mineclash.world.inventory.Page08Menu;
+import net.mcreator.mineclash.world.inventory.Page18Menu;
 
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class Page08Screen extends AbstractContainerScreen<Page08Menu> {
-	private final static HashMap<String, Object> guistate = Page08Menu.guistate;
+public class Page18Screen extends AbstractContainerScreen<Page18Menu> {
+	private final static HashMap<String, Object> guistate = Page18Menu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public Page08Screen(Page08Menu container, Inventory inventory, Component text) {
+	public Page18Screen(Page18Menu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -51,6 +51,9 @@ public class Page08Screen extends AbstractContainerScreen<Page08Menu> {
 		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/book.png"));
 		this.blit(ms, this.leftPos + -2, this.topPos + -20, 0, 0, 256, 256, 256, 256);
 
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/ukuleli_cc.png"));
+		this.blit(ms, this.leftPos + 33, this.topPos + 16, 0, 0, 613, 300, 613, 300);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -70,19 +73,10 @@ public class Page08Screen extends AbstractContainerScreen<Page08Menu> {
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Crafting Recipes", 42, -2, -16777216);
-		this.font.draw(poseStack, "MineClash offers a", 33, 16, -16777216);
-		this.font.draw(poseStack, "big varity of", 33, 25, -16777216);
-		this.font.draw(poseStack, "items, therefor", 33, 34, -16777216);
-		this.font.draw(poseStack, "there are a big", 33, 43, -16777216);
-		this.font.draw(poseStack, "amount of crafting", 33, 52, -16777216);
-		this.font.draw(poseStack, "recipes.", 33, 61, -16777216);
-		this.font.draw(poseStack, "Every recipe (except", 33, 79, -16777216);
-		this.font.draw(poseStack, "for the capasule", 33, 88, -16777216);
-		this.font.draw(poseStack, "crafting table)", 33, 97, -16777216);
-		this.font.draw(poseStack, "can only be crafted", 33, 106, -16777216);
-		this.font.draw(poseStack, "on the Capsule", 33, 115, -16777216);
-		this.font.draw(poseStack, "Crafting Table.", 33, 124, -16777216);
+		this.font.draw(poseStack, "Ukuleli", 69, -2, -16777216);
+		this.font.draw(poseStack, "1x Plain Capsule", 33, 106, -16777216);
+		this.font.draw(poseStack, "3x Oak Planks", 33, 115, -16777216);
+		this.font.draw(poseStack, "1x Stick", 33, 124, -16777216);
 	}
 
 	@Override
