@@ -24,6 +24,9 @@
         "type": "button",
         "data": {
           "text": "Back",
+          "onClick": {
+            "name": "Page18P"
+          },
           "width": 46,
           "height": 20,
           "name": "Back",

@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "dummy",
+    "texture": "book",
     "customModelName": "Normal",
     "name": "MineClash Manual",
     "rarity": "COMMON",
@@ -27,10 +27,16 @@
     "specialInfo": [
       "A Manual describing the world of MineClash!"
     ],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 0,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "OpenManualRightClick"
+    },
+    "onRightClickedOnBlock": {
+      "name": "OpenManualRightClick"
+    },
     "hasDispenseBehavior": false,
     "isFood": false,
     "nutritionalValue": 4,

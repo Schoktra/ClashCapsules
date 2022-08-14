@@ -12,6 +12,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.mineclash.world.inventory.Page19Menu;
+import net.mcreator.mineclash.network.Page19ButtonMessage;
+import net.mcreator.mineclash.MineclashMod;
 
 import java.util.HashMap;
 
@@ -93,6 +95,10 @@ public class Page19Screen extends AbstractContainerScreen<Page19Menu> {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 24, this.topPos + 169, 46, 20, new TextComponent("Back"), e -> {
+			if (true) {
+				MineclashMod.PACKET_HANDLER.sendToServer(new Page19ButtonMessage(0, x, y, z));
+				Page19ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 	}
 }

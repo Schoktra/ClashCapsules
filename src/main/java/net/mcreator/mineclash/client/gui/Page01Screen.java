@@ -12,6 +12,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.mineclash.world.inventory.Page01Menu;
+import net.mcreator.mineclash.network.Page01ButtonMessage;
+import net.mcreator.mineclash.MineclashMod;
 
 import java.util.HashMap;
 
@@ -88,6 +90,10 @@ public class Page01Screen extends AbstractContainerScreen<Page01Menu> {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 114, this.topPos + 169, 46, 20, new TextComponent("Next"), e -> {
+			if (true) {
+				MineclashMod.PACKET_HANDLER.sendToServer(new Page01ButtonMessage(0, x, y, z));
+				Page01ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 	}
 }

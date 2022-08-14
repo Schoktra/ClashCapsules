@@ -24,6 +24,9 @@
         "type": "button",
         "data": {
           "text": "Next",
+          "onClick": {
+            "name": "Page08P"
+          },
           "width": 46,
           "height": 20,
           "name": "Next",
@@ -35,6 +38,9 @@
         "type": "button",
         "data": {
           "text": "Back",
+          "onClick": {
+            "name": "Page06P"
+          },
           "width": 46,
           "height": 20,
           "name": "Back",

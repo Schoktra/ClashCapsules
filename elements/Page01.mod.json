@@ -89,6 +89,9 @@
         "type": "button",
         "data": {
           "text": "Next",
+          "onClick": {
+            "name": "Page02P"
+          },
           "width": 46,
           "height": 20,
           "name": "Next",

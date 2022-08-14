@@ -12,6 +12,8 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.mineclash.world.inventory.Page03Menu;
+import net.mcreator.mineclash.network.Page03ButtonMessage;
+import net.mcreator.mineclash.MineclashMod;
 
 import java.util.HashMap;
 
@@ -49,10 +51,10 @@ public class Page03Screen extends AbstractContainerScreen<Page03Menu> {
 		RenderSystem.defaultBlendFunc();
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/book.png"));
-		this.blit(ms, this.leftPos + -2, this.topPos + -11, 0, 0, 256, 256, 256, 256);
+		this.blit(ms, this.leftPos + -2, this.topPos + -20, 0, 0, 256, 256, 256, 256);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/logo2b.png"));
-		this.blit(ms, this.leftPos + 39, this.topPos + 102, 0, 0, 1649, 1000, 1649, 1000);
+		this.blit(ms, this.leftPos + 38, this.topPos + 99, 0, 0, 1649, 1000, 1649, 1000);
 
 		RenderSystem.disableBlend();
 	}
@@ -95,8 +97,16 @@ public class Page03Screen extends AbstractContainerScreen<Page03Menu> {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 114, this.topPos + 169, 46, 20, new TextComponent("Next"), e -> {
+			if (true) {
+				MineclashMod.PACKET_HANDLER.sendToServer(new Page03ButtonMessage(0, x, y, z));
+				Page03ButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 24, this.topPos + 169, 46, 20, new TextComponent("Back"), e -> {
+			if (true) {
+				MineclashMod.PACKET_HANDLER.sendToServer(new Page03ButtonMessage(1, x, y, z));
+				Page03ButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		}));
 	}
 }
