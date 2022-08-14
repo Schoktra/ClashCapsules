@@ -10,7 +10,7 @@ import net.mcreator.mineclash.client.model.Modelcustom_model;
 
 public class CommunityGhostRenderer extends MobRenderer<CommunityGhostEntity, Modelcustom_model<CommunityGhostEntity>> {
 	public CommunityGhostRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelcustom_model(context.bakeLayer(Modelcustom_model.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelcustom_model(context.bakeLayer(Modelcustom_model.LAYER_LOCATION)), 0f);
 	}
 
 	@Override

@@ -7,6 +7,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.mineclash.init.MineclashModItems;
@@ -50,6 +51,8 @@ public class FlighClashCapsuleEffectProcedure {
 						_player.getAbilities().flying = (false);
 						_player.onUpdateAbilities();
 					}
+					if (entity instanceof LivingEntity _entity)
+						_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1);
 					MinecraftForge.EVENT_BUS.unregister(this);
 				}
 			}.start(world, 3400);

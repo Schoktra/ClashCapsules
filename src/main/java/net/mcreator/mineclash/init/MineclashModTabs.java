@@ -24,9 +24,9 @@ public class MineclashModTabs {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundSuffix("item_search.png");
+		};
 		TAB_MINE_CLASH_WEAPONS = new CreativeModeTab("tabmine_clash_weapons") {
 			@Override
 			public ItemStack makeIcon() {

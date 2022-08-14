@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
@@ -43,7 +44,8 @@ import java.util.Random;
 public class CommunityGhostEntity extends PathfinderMob {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(MineclashModEntities.COMMUNITY_GHOST.get(), 20, 1, 2));
+		event.getSpawns().getSpawner(MobCategory.CREATURE)
+				.add(new MobSpawnSettings.SpawnerData(MineclashModEntities.COMMUNITY_GHOST.get(), 10, 1, 2));
 	}
 
 	public CommunityGhostEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -70,7 +72,7 @@ public class CommunityGhostEntity extends PathfinderMob {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8, 20) {
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.6, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				Random random = CommunityGhostEntity.this.getRandom();
@@ -80,9 +82,8 @@ public class CommunityGhostEntity extends PathfinderMob {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(4, new FloatGoal(this));
+		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(3, new FloatGoal(this));
 	}
 
 	@Override
@@ -130,8 +131,9 @@ public class CommunityGhostEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(MineclashModEntities.COMMUNITY_GHOST.get(), SpawnPlacements.Type.NO_RESTRICTIONS,
-				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
+		SpawnPlacements.register(MineclashModEntities.COMMUNITY_GHOST.get(), SpawnPlacements.Type.ON_GROUND,
+				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, (entityType, world, reason, pos,
+						random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
