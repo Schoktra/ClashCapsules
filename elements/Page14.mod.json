@@ -1,0 +1,103 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 123,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 240,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 150,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Weapon Capasule",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Weapon Capasule",
+          "x": 168,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "weapon_cc.png",
+          "use1Xscale": false,
+          "name": "weapon_cc.png",
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Plain Capsule",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "1x Plain Capsule",
+          "x": 159,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Iron Sword",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "1x Iron Sword",
+          "x": 159,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 123,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 240,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 150,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Crafting Recipes",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Crafting Recipes",
+          "x": 168,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "MineClash offers a",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "MineClash offers a",
+          "x": 159,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "big varity of",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "big varity of",
+          "x": 159,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "items, therefor",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "items, therefor",
+          "x": 159,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "there are a big",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "there are a big",
+          "x": 159,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "amount of crafting",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "amount of crafting",
+          "x": 159,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "recipes.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "recipes.",
+          "x": 159,
+          "y": 152
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

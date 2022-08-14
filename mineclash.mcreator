@@ -827,6 +827,114 @@
       "locked_code": false,
       "registry_name": "page_04",
       "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page05",
+      "type": "gui",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_05",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page06",
+      "type": "gui",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_06",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page07",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_07",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page08",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_08",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page09",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_09",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page10",
+      "type": "gui",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_10",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page11",
+      "type": "gui",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_11",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page12",
+      "type": "gui",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_12",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page13",
+      "type": "gui",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_13",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page14",
+      "type": "gui",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_14",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page15",
+      "type": "gui",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_15",
+      "path": "~/MineClash Manual"
+    },
+    {
+      "name": "Page16",
+      "type": "gui",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "page_16",
+      "path": "~/MineClash Manual"
     }
   ],
   "variable_elements": [],
@@ -834,8 +942,8 @@
   "language_map": {
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.tweet_feather": "Tweet Feather",
+      "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",

@@ -1,0 +1,155 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 123,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 240,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 150,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Community Ghost",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Community Ghost",
+          "x": 168,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "community_ghost.png",
+          "use1Xscale": false,
+          "name": "community_ghost.png",
+          "x": 177,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "These firendly ghosts",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "These firendly ghosts",
+          "x": 159,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "drop ClashCapsules",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "drop ClashCapsules",
+          "x": 159,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "which are the base",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "which are the base",
+          "x": 159,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "for most Mineclash",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "for most Mineclash",
+          "x": 159,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "related crafting",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "related crafting",
+          "x": 159,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "recipes.",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "recipes.",
+          "x": 159,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

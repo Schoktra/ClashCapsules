@@ -1,0 +1,103 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book.png",
+          "use1Xscale": false,
+          "name": "book.png",
+          "x": 123,
+          "y": 17
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 240,
+          "y": 206
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "width": 46,
+          "height": 20,
+          "name": "Back",
+          "x": 150,
+          "y": 206
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Capsule Crafting Table",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Capsule Crafting Table",
+          "x": 159,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ccct_recipe.png",
+          "use1Xscale": false,
+          "name": "ccct_recipe.png",
+          "x": 162,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Crafting Tabel",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "1x Crafting Tabel",
+          "x": 159,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "9x Plain Capasules",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "9x Plain Capasules",
+          "x": 159,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
