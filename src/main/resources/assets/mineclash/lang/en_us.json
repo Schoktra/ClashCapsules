@@ -1,7 +1,7 @@
 {
   "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-  "item.mineclash.tweet_feather": "Tweet Feather",
   "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
+  "item.mineclash.tweet_feather": "Tweet Feather",
   "item.mineclash.mine_clash_manual": "MineClash Manual",
   "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
   "advancements.bambus.descr": "Obtain the Bamboo Coldmirror Wand",
@@ -19,7 +19,7 @@
   "itemGroup.tabclash_capsules": "MineClash Clashcapsules",
   "entity.mineclash.twitter_bird": "Tweet",
   "entity.mineclash.player_clone": "Player Clone (WIP)",
-  "item.mineclash.fire_clash_capsule_projectile": "Fire Clash Capsule",
+  "item.mineclash.fire_clash_capsule_projectile": "Fire ClashCapsule",
   "item.mineclash.magical_girl_staff": "Chan´s Magical Girl Staff",
   "itemGroup.tabmine_clash_mcs": "MineClash Mcs",
   "item.mineclash.ukuleli": "Ukuleli",

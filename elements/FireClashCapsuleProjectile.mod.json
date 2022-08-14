@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "fire_clashcapsule",
     "customModelName": "Normal",
-    "name": "Fire Clash Capsule",
+    "name": "Fire ClashCapsule",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ClashCapsules"
@@ -24,8 +24,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
-    "bulletDamage": 5.0,
-    "bulletKnockback": 5,
+    "bulletDamage": 7.0,
+    "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {

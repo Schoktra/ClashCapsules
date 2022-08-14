@@ -68,14 +68,14 @@ public class FireClashCapsuleProjectileEntity extends AbstractArrow implements I
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		FireClashCapsuleEffectProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this);
+		FireClashCapsuleEffectProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
 		FireClashCapsuleEffectProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(),
-				blockHitResult.getBlockPos().getZ(), this.getOwner(), this);
+				blockHitResult.getBlockPos().getZ(), this);
 	}
 
 	@Override
@@ -109,8 +109,8 @@ public class FireClashCapsuleProjectileEntity extends AbstractArrow implements I
 		double dz = target.getZ() - entity.getZ();
 		entityarrow.shoot(dx, dy - entityarrow.getY() + Math.hypot(dx, dz) * 0.2F, dz, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setBaseDamage(5);
-		entityarrow.setKnockback(5);
+		entityarrow.setBaseDamage(7);
+		entityarrow.setKnockback(0);
 		entityarrow.setCritArrow(false);
 		entityarrow.setSecondsOnFire(100);
 		entity.level.addFreshEntity(entityarrow);
