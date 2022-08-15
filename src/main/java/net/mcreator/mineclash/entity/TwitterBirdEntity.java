@@ -9,7 +9,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.world.BiomeLoadingEvent;
 
 import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
@@ -44,7 +43,7 @@ import java.util.Random;
 public class TwitterBirdEntity extends PathfinderMob {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.CREATURE).add(new MobSpawnSettings.SpawnerData(MineclashModEntities.TWITTER_BIRD.get(), 10, 1, 2));
+		event.getSpawns().getSpawner(MobCategory.MISC).add(new MobSpawnSettings.SpawnerData(MineclashModEntities.TWITTER_BIRD.get(), 10, 1, 2));
 	}
 
 	public TwitterBirdEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -141,9 +140,8 @@ public class TwitterBirdEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(MineclashModEntities.TWITTER_BIRD.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos,
-						random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
+		SpawnPlacements.register(MineclashModEntities.TWITTER_BIRD.get(), SpawnPlacements.Type.NO_RESTRICTIONS,
+				Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

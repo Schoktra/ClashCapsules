@@ -36,6 +36,9 @@
     "onBulletHitsBlock": {
       "name": "FireClashCapsuleEffect"
     },
+    "onBulletHitsPlayer": {
+      "name": "FireClashCapsuleEffect"
+    },
     "onBulletHitsEntity": {
       "name": "FireClashCapsuleEffect"
     }

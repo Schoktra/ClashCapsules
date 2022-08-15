@@ -40,7 +40,7 @@ public class MineclashModEntities {
 					.setCustomClientFactory(LighntingClashCapsuleProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<CommunityGhostEntity>> COMMUNITY_GHOST = register("community_ghost",
-			EntityType.Builder.<CommunityGhostEntity>of(CommunityGhostEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
+			EntityType.Builder.<CommunityGhostEntity>of(CommunityGhostEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CommunityGhostEntity::new)
 
 					.sized(0.1f, 0.6f));
@@ -50,7 +50,7 @@ public class MineclashModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<TwitterBirdEntity>> TWITTER_BIRD = register("twitter_bird",
-			EntityType.Builder.<TwitterBirdEntity>of(TwitterBirdEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
+			EntityType.Builder.<TwitterBirdEntity>of(TwitterBirdEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TwitterBirdEntity::new)
 
 					.sized(0.1f, 0.6f));
