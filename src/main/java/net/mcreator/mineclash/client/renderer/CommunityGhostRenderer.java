@@ -15,6 +15,6 @@ public class CommunityGhostRenderer extends MobRenderer<CommunityGhostEntity, Mo
 
 	@Override
 	public ResourceLocation getTextureLocation(CommunityGhostEntity entity) {
-		return new ResourceLocation("mineclash:textures/white_end.png");
+		return new ResourceLocation("mineclash:textures/entities/white_end.png");
 	}
 }

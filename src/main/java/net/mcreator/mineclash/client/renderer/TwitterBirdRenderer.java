@@ -15,6 +15,6 @@ public class TwitterBirdRenderer extends MobRenderer<TwitterBirdEntity, Modeltwi
 
 	@Override
 	public ResourceLocation getTextureLocation(TwitterBirdEntity entity) {
-		return new ResourceLocation("mineclash:textures/twitter_message_bird_texture.png");
+		return new ResourceLocation("mineclash:textures/entities/twitter_message_bird_texture.png");
 	}
 }

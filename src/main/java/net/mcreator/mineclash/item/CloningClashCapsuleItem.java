@@ -31,11 +31,6 @@ public class CloningClashCapsuleItem extends Item {
 	}
 
 	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 32;
-	}
-
-	@Override
 	@OnlyIn(Dist.CLIENT)
 	public boolean isFoil(ItemStack itemstack) {
 		return true;

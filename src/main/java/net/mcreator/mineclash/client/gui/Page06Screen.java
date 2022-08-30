@@ -50,10 +50,10 @@ public class Page06Screen extends AbstractContainerScreen<Page06Menu> {
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/book.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/screens/book.png"));
 		this.blit(ms, this.leftPos + -2, this.topPos + -20, 0, 0, 256, 256, 256, 256);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/community_ghost.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/screens/community_ghost.png"));
 		this.blit(ms, this.leftPos + 51, this.topPos + 16, 0, 0, 559, 550, 559, 550);
 
 		RenderSystem.disableBlend();

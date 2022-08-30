@@ -19,6 +19,6 @@ public class PlayerCloneRenderer extends HumanoidMobRenderer<PlayerCloneEntity, 
 
 	@Override
 	public ResourceLocation getTextureLocation(PlayerCloneEntity entity) {
-		return new ResourceLocation("mineclash:textures/bipedal_dummy.png");
+		return new ResourceLocation("mineclash:textures/entities/bipedal_dummy.png");
 	}
 }

@@ -31,9 +31,4 @@ public class PlainPowerbeanItem extends Item {
 	public ItemStack getContainerItem(ItemStack itemstack) {
 		return new ItemStack(this);
 	}
-
-	@Override
-	public int getUseDuration(ItemStack itemstack) {
-		return 32;
-	}
 }

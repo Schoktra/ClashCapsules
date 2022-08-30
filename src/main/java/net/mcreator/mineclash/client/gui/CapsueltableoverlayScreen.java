@@ -33,7 +33,7 @@ public class CapsueltableoverlayScreen extends AbstractContainerScreen<Capsuelta
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("mineclash:textures/capsueltableoverlay.png");
+	private static final ResourceLocation texture = new ResourceLocation("mineclash:textures/screens/capsueltableoverlay.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -50,7 +50,7 @@ public class CapsueltableoverlayScreen extends AbstractContainerScreen<Capsuelta
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/arrow.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("mineclash:textures/screens/arrow.png"));
 		this.blit(ms, this.leftPos + 78, this.topPos + 41, 0, 0, 30, 21, 30, 21);
 
 		RenderSystem.disableBlend();
