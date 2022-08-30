@@ -1652,6 +1652,28 @@
         ]
       },
       "path": "~/MineClash Manual/Procedures"
+    },
+    {
+      "name": "GLPMask",
+      "type": "armor",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glp_mask",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "PetrolliumJelly",
+      "type": "livingentity",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "petrollium_jelly"
     }
   ],
   "variable_elements": [],
@@ -1659,11 +1681,12 @@
   "language_map": {
     "en_us": {
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
+      "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.mine_clash_manual": "MineClash Manual",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "advancements.bambus.descr": "Obtain the Bamboo Coldmirror Wand",
+      "item.mineclash.glp_mask_leggings": "GLP Mask Leggings",
       "item.mineclash.taddl_noodlezooka": "Taddl´s Noodlezooka",
       "item.mineclash.lefloidsword": "Lefloidsword",
       "item.mineclash.time_clash_capsule": "Time ClashCapsule",
@@ -1675,6 +1698,8 @@
       "item.mineclash.taddlzooka_noodles": "Taddlzooka Noodles",
       "item.mineclash.coldmirrorwandprojectile": "Coldmirrorwandprojectile",
       "item.mineclash.iblalisbratwurstchain": "IBlali´s Bratwurst-Chain",
+      "item.mineclash.glp_mask_helmet": "GLP Mask Helmet",
+      "item.mineclash.petrollium_jelly_spawn_egg": "Petrollium Jelly Spawn Egg",
       "itemGroup.tabclash_capsules": "MineClash Clashcapsules",
       "entity.mineclash.twitter_bird": "Tweet",
       "entity.mineclash.player_clone": "Player Clone (WIP)",
@@ -1684,8 +1709,11 @@
       "item.mineclash.ukuleli": "Ukuleli",
       "item.mineclash.kellybattleaxe": "Kelly´s battle Axe",
       "entity.mineclash.community_ghost": "Community Ghost",
+      "item.mineclash.glp_mask_boots": "GLP Mask Boots",
+      "entity.mineclash.petrollium_jelly": "Petrollium Jelly",
       "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
       "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",
+      "item.mineclash.glp_mask_chestplate": "GLP Mask Body",
       "item.mineclash.twitter_bird_spawn_egg": "Tweet Spawn Egg",
       "advancements.bambus.title": "BAMBUS!!!",
       "item.mineclash.coldmirror_wand_bamboo": "Coldmirrors Wand",
@@ -1721,6 +1749,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Custom Music",
+        "children": []
       }
     ]
   },

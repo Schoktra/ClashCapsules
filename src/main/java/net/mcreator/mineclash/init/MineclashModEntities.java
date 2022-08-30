@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.mineclash.entity.TwitterBirdEntity;
 import net.mcreator.mineclash.entity.TaddlNoodlezookaEntity;
 import net.mcreator.mineclash.entity.PlayerCloneEntity;
+import net.mcreator.mineclash.entity.PetrolliumJellyEntity;
 import net.mcreator.mineclash.entity.LighntingClashCapsuleProjectileEntity;
 import net.mcreator.mineclash.entity.FireClashCapsuleProjectileEntity;
 import net.mcreator.mineclash.entity.CommunityGhostEntity;
@@ -66,6 +67,11 @@ public class MineclashModEntities {
 			EntityType.Builder.<ColdmirrorWandBambooEntity>of(ColdmirrorWandBambooEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ColdmirrorWandBambooEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<PetrolliumJellyEntity>> PETROLLIUM_JELLY = register("petrollium_jelly",
+			EntityType.Builder.<PetrolliumJellyEntity>of(PetrolliumJellyEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PetrolliumJellyEntity::new)
+
+					.sized(0.9f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -77,6 +83,7 @@ public class MineclashModEntities {
 			CommunityGhostEntity.init();
 			PlayerCloneEntity.init();
 			TwitterBirdEntity.init();
+			PetrolliumJellyEntity.init();
 		});
 	}
 
@@ -85,5 +92,6 @@ public class MineclashModEntities {
 		event.put(COMMUNITY_GHOST.get(), CommunityGhostEntity.createAttributes().build());
 		event.put(PLAYER_CLONE.get(), PlayerCloneEntity.createAttributes().build());
 		event.put(TWITTER_BIRD.get(), TwitterBirdEntity.createAttributes().build());
+		event.put(PETROLLIUM_JELLY.get(), PetrolliumJellyEntity.createAttributes().build());
 	}
 }

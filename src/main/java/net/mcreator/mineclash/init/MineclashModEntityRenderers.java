@@ -13,6 +13,7 @@ import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.mineclash.client.renderer.TwitterBirdRenderer;
 import net.mcreator.mineclash.client.renderer.PlayerCloneRenderer;
+import net.mcreator.mineclash.client.renderer.PetrolliumJellyRenderer;
 import net.mcreator.mineclash.client.renderer.CommunityGhostRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -27,5 +28,6 @@ public class MineclashModEntityRenderers {
 		event.registerEntityRenderer(MineclashModEntities.COLDMIRRORS_WAND.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineclashModEntities.TADDL_NOODLEZOOKA.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MineclashModEntities.COLDMIRROR_WAND_BAMBOO.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MineclashModEntities.PETROLLIUM_JELLY.get(), PetrolliumJellyRenderer::new);
 	}
 }

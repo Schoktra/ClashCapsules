@@ -28,6 +28,7 @@ import net.mcreator.mineclash.item.LefloidswordItem;
 import net.mcreator.mineclash.item.KellybattleaxeItem;
 import net.mcreator.mineclash.item.InvisibilityClashCapsuleItem;
 import net.mcreator.mineclash.item.IblalisbratwurstchainItem;
+import net.mcreator.mineclash.item.GLPMaskItem;
 import net.mcreator.mineclash.item.FlighClashCapsuleItem;
 import net.mcreator.mineclash.item.FireClashCapsuleProjectileItem;
 import net.mcreator.mineclash.item.ColdmirrorwandprojectileItem;
@@ -74,6 +75,10 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> COLDMIRROR_WAND_BAMBOO = REGISTRY.register("coldmirror_wand_bamboo",
 			() -> new ColdmirrorWandBambooItem());
 	public static final RegistryObject<Item> MINE_CLASH_MANUAL = REGISTRY.register("mine_clash_manual", () -> new MineClashManualItem());
+	public static final RegistryObject<Item> GLP_MASK_HELMET = REGISTRY.register("glp_mask_helmet", () -> new GLPMaskItem.Helmet());
+	public static final RegistryObject<Item> PETROLLIUM_JELLY = REGISTRY.register("petrollium_jelly_spawn_egg",
+			() -> new ForgeSpawnEggItem(MineclashModEntities.PETROLLIUM_JELLY, -10027009, -16724992,
+					new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_MCS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
