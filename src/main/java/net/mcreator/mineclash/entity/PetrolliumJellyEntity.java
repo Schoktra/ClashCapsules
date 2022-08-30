@@ -13,12 +13,13 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.monster.Slime;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
@@ -32,7 +33,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.mineclash.init.MineclashModEntities;
 
 @Mod.EventBusSubscriber
-public class PetrolliumJellyEntity extends Slime {
+public class PetrolliumJellyEntity extends PathfinderMob {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		event.getSpawns().getSpawner(MobCategory.AMBIENT)
@@ -57,8 +58,9 @@ public class PetrolliumJellyEntity extends Slime {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(2, new FloatGoal(this));
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(3, new FloatGoal(this));
 	}
 
 	@Override

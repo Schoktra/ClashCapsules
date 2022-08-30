@@ -55,6 +55,11 @@ public class MineclashModEntities {
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TwitterBirdEntity::new)
 
 					.sized(0.1f, 0.6f));
+	public static final RegistryObject<EntityType<PetrolliumJellyEntity>> PETROLLIUM_JELLY = register("petrollium_jelly",
+			EntityType.Builder.<PetrolliumJellyEntity>of(PetrolliumJellyEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PetrolliumJellyEntity::new)
+
+					.sized(0.9f, 0.9f));
 	public static final RegistryObject<EntityType<ColdmirrorsWandEntity>> COLDMIRRORS_WAND = register("projectile_coldmirrors_wand",
 			EntityType.Builder.<ColdmirrorsWandEntity>of(ColdmirrorsWandEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ColdmirrorsWandEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
@@ -67,11 +72,6 @@ public class MineclashModEntities {
 			EntityType.Builder.<ColdmirrorWandBambooEntity>of(ColdmirrorWandBambooEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(ColdmirrorWandBambooEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<PetrolliumJellyEntity>> PETROLLIUM_JELLY = register("petrollium_jelly",
-			EntityType.Builder.<PetrolliumJellyEntity>of(PetrolliumJellyEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true)
-					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PetrolliumJellyEntity::new)
-
-					.sized(0.9f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

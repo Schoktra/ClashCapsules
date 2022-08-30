@@ -53,32 +53,32 @@ public class MineclashModItems {
 			() -> new LighntingClashCapsuleProjectileItem());
 	public static final RegistryObject<Item> CAPSULE_CRAFTING_TABLE = block(MineclashModBlocks.CAPSULE_CRAFTING_TABLE,
 			MineclashModTabs.TAB_MINE_CLASH_MCS);
-	public static final RegistryObject<Item> CLASH_CAPSULE_SWORD = REGISTRY.register("clash_capsule_sword", () -> new ClashCapsuleSwordItem());
-	public static final RegistryObject<Item> UKULELI = REGISTRY.register("ukuleli", () -> new UkuleliItem());
+	public static final RegistryObject<Item> TWEET_FEATHER = REGISTRY.register("tweet_feather", () -> new TweetFeatherItem());
+	public static final RegistryObject<Item> MINE_CLASH_MANUAL = REGISTRY.register("mine_clash_manual", () -> new MineClashManualItem());
+	public static final RegistryObject<Item> GLP_MASK_HELMET = REGISTRY.register("glp_mask_helmet", () -> new GLPMaskItem.Helmet());
 	public static final RegistryObject<Item> COMMUNITY_GHOST = REGISTRY.register("community_ghost_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineclashModEntities.COMMUNITY_GHOST, -1, -16711681,
 					new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_MCS)));
-	public static final RegistryObject<Item> LEFLOIDSWORD = REGISTRY.register("lefloidsword", () -> new LefloidswordItem());
 	public static final RegistryObject<Item> TWITTER_BIRD = REGISTRY.register("twitter_bird_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineclashModEntities.TWITTER_BIRD, -16744193, -16727843,
 					new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_MCS)));
-	public static final RegistryObject<Item> COLDMIRRORS_WAND = REGISTRY.register("coldmirrors_wand", () -> new ColdmirrorsWandItem());
-	public static final RegistryObject<Item> TADDL_NOODLEZOOKA = REGISTRY.register("taddl_noodlezooka", () -> new TaddlNoodlezookaItem());
-	public static final RegistryObject<Item> TADDLZOOKA_NOODLES = REGISTRY.register("taddlzooka_noodles", () -> new TaddlzookaNoodlesItem());
-	public static final RegistryObject<Item> IBLALISBRATWURSTCHAIN = REGISTRY.register("iblalisbratwurstchain",
-			() -> new IblalisbratwurstchainItem());
-	public static final RegistryObject<Item> KELLYBATTLEAXE = REGISTRY.register("kellybattleaxe", () -> new KellybattleaxeItem());
-	public static final RegistryObject<Item> TWEET_FEATHER = REGISTRY.register("tweet_feather", () -> new TweetFeatherItem());
-	public static final RegistryObject<Item> COLDMIRRORWANDPROJECTILE = REGISTRY.register("coldmirrorwandprojectile",
-			() -> new ColdmirrorwandprojectileItem());
-	public static final RegistryObject<Item> MAGICAL_GIRL_STAFF = REGISTRY.register("magical_girl_staff", () -> new MagicalGirlStaffItem());
-	public static final RegistryObject<Item> COLDMIRROR_WAND_BAMBOO = REGISTRY.register("coldmirror_wand_bamboo",
-			() -> new ColdmirrorWandBambooItem());
-	public static final RegistryObject<Item> MINE_CLASH_MANUAL = REGISTRY.register("mine_clash_manual", () -> new MineClashManualItem());
-	public static final RegistryObject<Item> GLP_MASK_HELMET = REGISTRY.register("glp_mask_helmet", () -> new GLPMaskItem.Helmet());
 	public static final RegistryObject<Item> PETROLLIUM_JELLY = REGISTRY.register("petrollium_jelly_spawn_egg",
 			() -> new ForgeSpawnEggItem(MineclashModEntities.PETROLLIUM_JELLY, -10027009, -16724992,
 					new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_MCS)));
+	public static final RegistryObject<Item> CLASH_CAPSULE_SWORD = REGISTRY.register("clash_capsule_sword", () -> new ClashCapsuleSwordItem());
+	public static final RegistryObject<Item> UKULELI = REGISTRY.register("ukuleli", () -> new UkuleliItem());
+	public static final RegistryObject<Item> LEFLOIDSWORD = REGISTRY.register("lefloidsword", () -> new LefloidswordItem());
+	public static final RegistryObject<Item> COLDMIRRORS_WAND = REGISTRY.register("coldmirrors_wand", () -> new ColdmirrorsWandItem());
+	public static final RegistryObject<Item> TADDL_NOODLEZOOKA = REGISTRY.register("taddl_noodlezooka", () -> new TaddlNoodlezookaItem());
+	public static final RegistryObject<Item> IBLALISBRATWURSTCHAIN = REGISTRY.register("iblalisbratwurstchain",
+			() -> new IblalisbratwurstchainItem());
+	public static final RegistryObject<Item> KELLYBATTLEAXE = REGISTRY.register("kellybattleaxe", () -> new KellybattleaxeItem());
+	public static final RegistryObject<Item> MAGICAL_GIRL_STAFF = REGISTRY.register("magical_girl_staff", () -> new MagicalGirlStaffItem());
+	public static final RegistryObject<Item> COLDMIRROR_WAND_BAMBOO = REGISTRY.register("coldmirror_wand_bamboo",
+			() -> new ColdmirrorWandBambooItem());
+	public static final RegistryObject<Item> TADDLZOOKA_NOODLES = REGISTRY.register("taddlzooka_noodles", () -> new TaddlzookaNoodlesItem());
+	public static final RegistryObject<Item> COLDMIRRORWANDPROJECTILE = REGISTRY.register("coldmirrorwandprojectile",
+			() -> new ColdmirrorwandprojectileItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

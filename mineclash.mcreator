@@ -30,7 +30,7 @@
     {
       "name": "ClashCapsules",
       "type": "tab",
-      "sortid": 15,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clash_capsules"
@@ -65,7 +65,7 @@
     {
       "name": "TimeClashCapsuleEffect",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_clash_capsule_effect",
@@ -86,7 +86,7 @@
     {
       "name": "WeaponClashCapsuleEffect",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "weapon_clash_capsule_effect",
@@ -103,7 +103,7 @@
     {
       "name": "InvisibilityClashCapsuleEffect",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisibility_clash_capsule_effect",
@@ -120,7 +120,7 @@
     {
       "name": "FlighClashCapsuleEffect",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fligh_clash_capsule_effect",
@@ -141,7 +141,7 @@
     {
       "name": "CpasuleCraftingtable",
       "type": "block",
-      "sortid": 10,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsule_crafting_table",
@@ -150,7 +150,7 @@
     {
       "name": "ClashCapsuleCraftingtable",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clash_capsule_craftingtable",
@@ -159,7 +159,7 @@
     {
       "name": "ClashCapsuleCraftingtableUpdateTick",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clash_capsule_craftingtable_update_tick",
@@ -188,7 +188,7 @@
     {
       "name": "FireClashCapsuleProjectile",
       "type": "rangeditem",
-      "sortid": 8,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_clash_capsule_projectile"
@@ -196,7 +196,7 @@
     {
       "name": "FireClashCapsuleEffect",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_clash_capsule_effect",
@@ -229,7 +229,7 @@
     {
       "name": "ClashCapsuleSword",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clash_capsule_sword"
@@ -237,7 +237,7 @@
     {
       "name": "PlayerCloneEntityDies",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_clone_entity_dies",
@@ -273,7 +273,7 @@
     {
       "name": "CloningClashCapsuleEffecft",
       "type": "procedure",
-      "sortid": 28,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cloning_clash_capsule_effecft",
@@ -302,7 +302,7 @@
     {
       "name": "LighntingClashCapsuleEffect",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lighnting_clash_capsule_effect",
@@ -335,7 +335,7 @@
     {
       "name": "LighntingClashCapsuleProjectile",
       "type": "rangeditem",
-      "sortid": 9,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lighnting_clash_capsule_projectile"
@@ -343,7 +343,7 @@
     {
       "name": "Ukuleli",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ukuleli"
@@ -359,7 +359,7 @@
     {
       "name": "CommunityGhostLT",
       "type": "loottable",
-      "sortid": 30,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "community_ghost_lt",
@@ -368,7 +368,7 @@
     {
       "name": "Lefloidsword",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lefloidsword"
@@ -376,7 +376,7 @@
     {
       "name": "TwitterBird",
       "type": "livingentity",
-      "sortid": 32,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twitter_bird"
@@ -384,7 +384,7 @@
     {
       "name": "Sample",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sample",
@@ -401,7 +401,7 @@
     {
       "name": "Capsueltableoverlay",
       "type": "gui",
-      "sortid": 34,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsueltableoverlay",
@@ -410,7 +410,7 @@
     {
       "name": "Capsuletableoverlaywhilethisguiisopentick",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsuletableoverlaywhilethisguiisopentick",
@@ -427,7 +427,7 @@
     {
       "name": "Capsuletableoverlaythisguiisclosed",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsuletableoverlaythisguiisclosed",
@@ -460,7 +460,7 @@
     {
       "name": "Capsuletableoverlaywhenitemtakenfromtheslot",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsuletableoverlaywhenitemtakenfromtheslot",
@@ -477,7 +477,7 @@
     {
       "name": "Capsuletableoverlaywhentransferredfromslot",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "capsuletableoverlaywhentransferredfromslot",
@@ -494,7 +494,7 @@
     {
       "name": "Minnonzerostacksize",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "minnonzerostacksize",
@@ -512,7 +512,7 @@
     {
       "name": "ColdmirrorsWand",
       "type": "rangeditem",
-      "sortid": 40,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coldmirrors_wand"
@@ -520,7 +520,7 @@
     {
       "name": "TaddlNoodlezooka",
       "type": "rangeditem",
-      "sortid": 41,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "taddl_noodlezooka"
@@ -528,7 +528,7 @@
     {
       "name": "TaddlzookaNoodles",
       "type": "item",
-      "sortid": 42,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "taddlzooka_noodles"
@@ -536,7 +536,7 @@
     {
       "name": "MineClashWeapons",
       "type": "tab",
-      "sortid": 43,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mine_clash_weapons"
@@ -544,7 +544,7 @@
     {
       "name": "LightningCapsuleRecipe",
       "type": "procedure",
-      "sortid": 44,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightning_capsule_recipe",
@@ -561,7 +561,7 @@
     {
       "name": "FireCapsuleRecipe",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fire_capsule_recipe",
@@ -578,7 +578,7 @@
     {
       "name": "TimeCapsuleRecipe",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "time_capsule_recipe",
@@ -595,7 +595,7 @@
     {
       "name": "CloningCapsuleRecipe",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cloning_capsule_recipe",
@@ -612,7 +612,7 @@
     {
       "name": "MineClashMcs",
       "type": "tab",
-      "sortid": 48,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mine_clash_mcs"
@@ -620,7 +620,7 @@
     {
       "name": "InvisibleCapsuleRecipe",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "invisible_capsule_recipe",
@@ -637,7 +637,7 @@
     {
       "name": "UkuleliRecipe",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ukuleli_recipe",
@@ -654,7 +654,7 @@
     {
       "name": "Iblalisbratwurstchain",
       "type": "tool",
-      "sortid": 51,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iblalisbratwurstchain"
@@ -662,7 +662,7 @@
     {
       "name": "BratwurstChainRecipe",
       "type": "procedure",
-      "sortid": 52,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bratwurst_chain_recipe",
@@ -679,7 +679,7 @@
     {
       "name": "Kellybattleaxe",
       "type": "tool",
-      "sortid": 53,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kellybattleaxe"
@@ -687,7 +687,7 @@
     {
       "name": "TweetFeather",
       "type": "item",
-      "sortid": 54,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tweet_feather"
@@ -766,7 +766,7 @@
     {
       "name": "MagicalGirlStaff",
       "type": "tool",
-      "sortid": 59,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magical_girl_staff"
@@ -774,7 +774,7 @@
     {
       "name": "ColdmirrorWandBamboo",
       "type": "rangeditem",
-      "sortid": 60,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coldmirror_wand_bamboo"
@@ -782,7 +782,7 @@
     {
       "name": "Manualtemplate",
       "type": "gui",
-      "sortid": 61,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manualtemplate",
@@ -791,7 +791,7 @@
     {
       "name": "Page01",
       "type": "gui",
-      "sortid": 62,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_01",
@@ -800,7 +800,7 @@
     {
       "name": "Page02",
       "type": "gui",
-      "sortid": 63,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_02",
@@ -809,7 +809,7 @@
     {
       "name": "Page03",
       "type": "gui",
-      "sortid": 64,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_03",
@@ -818,7 +818,7 @@
     {
       "name": "Page04",
       "type": "gui",
-      "sortid": 65,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_04",
@@ -827,7 +827,7 @@
     {
       "name": "Page05",
       "type": "gui",
-      "sortid": 66,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_05",
@@ -836,7 +836,7 @@
     {
       "name": "Page06",
       "type": "gui",
-      "sortid": 67,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_06",
@@ -845,7 +845,7 @@
     {
       "name": "Page07",
       "type": "gui",
-      "sortid": 68,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_07",
@@ -854,7 +854,7 @@
     {
       "name": "Page08",
       "type": "gui",
-      "sortid": 69,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_08",
@@ -863,7 +863,7 @@
     {
       "name": "Page09",
       "type": "gui",
-      "sortid": 70,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_09",
@@ -872,7 +872,7 @@
     {
       "name": "Page10",
       "type": "gui",
-      "sortid": 71,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_10",
@@ -881,7 +881,7 @@
     {
       "name": "Page11",
       "type": "gui",
-      "sortid": 72,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_11",
@@ -890,7 +890,7 @@
     {
       "name": "Page12",
       "type": "gui",
-      "sortid": 73,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_12",
@@ -899,7 +899,7 @@
     {
       "name": "Page13",
       "type": "gui",
-      "sortid": 74,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_13",
@@ -908,7 +908,7 @@
     {
       "name": "Page14",
       "type": "gui",
-      "sortid": 75,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_14",
@@ -917,7 +917,7 @@
     {
       "name": "Page15",
       "type": "gui",
-      "sortid": 76,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_15",
@@ -926,7 +926,7 @@
     {
       "name": "Page16",
       "type": "gui",
-      "sortid": 77,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_16",
@@ -935,7 +935,7 @@
     {
       "name": "Page17",
       "type": "gui",
-      "sortid": 78,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_17",
@@ -944,7 +944,7 @@
     {
       "name": "Page18",
       "type": "gui",
-      "sortid": 79,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_18",
@@ -953,7 +953,7 @@
     {
       "name": "Page19",
       "type": "gui",
-      "sortid": 80,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_19",
@@ -962,7 +962,7 @@
     {
       "name": "BAMBUS",
       "type": "achievement",
-      "sortid": 81,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bambus"
@@ -970,7 +970,7 @@
     {
       "name": "MineClashManual",
       "type": "item",
-      "sortid": 82,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mine_clash_manual",
@@ -979,7 +979,7 @@
     {
       "name": "ManualPlayerSpawn",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manual_player_spawn",
@@ -996,7 +996,7 @@
     {
       "name": "OpenManualRightClick",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "open_manual_right_click",
@@ -1029,7 +1029,7 @@
     {
       "name": "Page02P",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_02_p",
@@ -1062,7 +1062,7 @@
     {
       "name": "Page03P",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_03_p",
@@ -1095,7 +1095,7 @@
     {
       "name": "Page04P",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_04_p",
@@ -1128,7 +1128,7 @@
     {
       "name": "Page05P",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_05_p",
@@ -1161,7 +1161,7 @@
     {
       "name": "Page06P",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_06_p",
@@ -1194,7 +1194,7 @@
     {
       "name": "Page07P",
       "type": "procedure",
-      "sortid": 89,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_07_p",
@@ -1227,7 +1227,7 @@
     {
       "name": "Page08P",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_08_p",
@@ -1260,7 +1260,7 @@
     {
       "name": "Page09P",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_09_p",
@@ -1293,7 +1293,7 @@
     {
       "name": "Page10P",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_10_p",
@@ -1326,7 +1326,7 @@
     {
       "name": "Page11P",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_11_p",
@@ -1359,7 +1359,7 @@
     {
       "name": "Page12P",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_12_p",
@@ -1392,7 +1392,7 @@
     {
       "name": "Page13P",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_13_p",
@@ -1425,7 +1425,7 @@
     {
       "name": "Page14P",
       "type": "procedure",
-      "sortid": 96,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_14_p",
@@ -1458,7 +1458,7 @@
     {
       "name": "Page15P",
       "type": "procedure",
-      "sortid": 97,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_15_p",
@@ -1491,7 +1491,7 @@
     {
       "name": "Page16P",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_16_p",
@@ -1524,7 +1524,7 @@
     {
       "name": "Page17P",
       "type": "procedure",
-      "sortid": 99,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_17_p",
@@ -1557,7 +1557,7 @@
     {
       "name": "Page18P",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_18_p",
@@ -1590,7 +1590,7 @@
     {
       "name": "Page19P",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_19_p",
@@ -1623,7 +1623,7 @@
     {
       "name": "Page01P",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "page_01_p",
@@ -1656,7 +1656,7 @@
     {
       "name": "GLPMask",
       "type": "armor",
-      "sortid": 103,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glp_mask",
@@ -1670,7 +1670,7 @@
     {
       "name": "PetrolliumJelly",
       "type": "livingentity",
-      "sortid": 104,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrollium_jelly"
