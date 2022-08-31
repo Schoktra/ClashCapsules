@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "MineClash Clothing",
+    "icon": {
+      "value": "CUSTOM:GLPArmorSet.helmet"
+    },
+    "showSearch": true
+  }
+}

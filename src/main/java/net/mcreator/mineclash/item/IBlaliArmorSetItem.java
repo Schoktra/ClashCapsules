@@ -15,8 +15,8 @@ import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.mineclash.init.MineclashModTabs;
 
-public abstract class GLPMaskItem extends ArmorItem {
-	public GLPMaskItem(EquipmentSlot slot, Item.Properties properties) {
+public abstract class IBlaliArmorSetItem extends ArmorItem {
+	public IBlaliArmorSetItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
@@ -25,17 +25,17 @@ public abstract class GLPMaskItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{0, 0, 0, 2}[slot.getIndex()];
+				return new int[]{1, 4, 5, 2}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 0;
 			}
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_generic"));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_leather"));
 			}
 
 			@Override
@@ -45,7 +45,7 @@ public abstract class GLPMaskItem extends ArmorItem {
 
 			@Override
 			public String getName() {
-				return "glp_mask";
+				return "i_blali_armor_set";
 			}
 
 			@Override
@@ -60,14 +60,36 @@ public abstract class GLPMaskItem extends ArmorItem {
 		}, slot, properties);
 	}
 
-	public static class Helmet extends GLPMaskItem {
-		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_MCS));
+	public static class Chestplate extends IBlaliArmorSetItem {
+		public Chestplate() {
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "mineclash:textures/models/armor/glp_mask_texture__layer_1.png";
+			return "mineclash:textures/models/armor/iblali_armor_layer_1_layer_1.png";
+		}
+	}
+
+	public static class Leggings extends IBlaliArmorSetItem {
+		public Leggings() {
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "mineclash:textures/models/armor/iblali_armor_layer_1_layer_2.png";
+		}
+	}
+
+	public static class Boots extends IBlaliArmorSetItem {
+		public Boots() {
+			super(EquipmentSlot.FEET, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+		}
+
+		@Override
+		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+			return "mineclash:textures/models/armor/iblali_armor_layer_1_layer_1.png";
 		}
 	}
 }

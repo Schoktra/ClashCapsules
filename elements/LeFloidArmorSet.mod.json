@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "glp_mask_item",
-    "enableBody": false,
-    "textureBody": "",
-    "enableLeggings": false,
-    "textureLeggings": "",
-    "enableBoots": false,
-    "textureBoots": "",
+    "textureHelmet": "lefloid_cap",
+    "enableBody": true,
+    "textureBody": "lefloid_shirt",
+    "enableLeggings": true,
+    "textureLeggings": "lefloid_pants",
+    "enableBoots": true,
+    "textureBoots": "lefloid_shoes",
     "creativeTab": {
-      "value": "CUSTOM:MineClashMcs"
+      "value": "CUSTOM:MineClashClothing"
     },
-    "armorTextureFile": "glp_mask_texture_",
-    "helmetName": "GLP Mask Helmet",
-    "bodyName": "GLP Mask Body",
-    "leggingsName": "GLP Mask Leggings",
-    "bootsName": "GLP Mask Boots",
+    "armorTextureFile": "lefloid_armor_layer_1",
+    "helmetName": "LeFloid Cap",
+    "bodyName": "LeFloid Shirt",
+    "leggingsName": "LeFloid Pants",
+    "bootsName": "LeFloid Shoes",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -42,16 +42,16 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 25,
+    "maxDamage": 15,
     "damageValueHelmet": 2,
-    "damageValueBody": 0,
-    "damageValueLeggings": 0,
-    "damageValueBoots": 0,
-    "enchantability": 9,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 1,
+    "enchantability": 0,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
-      "value": "item.armor.equip_generic"
+      "value": "item.armor.equip_leather"
     },
     "repairItems": []
   }

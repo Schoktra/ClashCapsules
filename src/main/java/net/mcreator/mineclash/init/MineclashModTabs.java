@@ -14,6 +14,7 @@ public class MineclashModTabs {
 	public static CreativeModeTab TAB_CLASH_CAPSULES;
 	public static CreativeModeTab TAB_MINE_CLASH_WEAPONS;
 	public static CreativeModeTab TAB_MINE_CLASH_MCS;
+	public static CreativeModeTab TAB_MINE_CLASH_CLOTHING;
 
 	public static void load() {
 		TAB_CLASH_CAPSULES = new CreativeModeTab("tabclash_capsules") {
@@ -49,5 +50,16 @@ public class MineclashModTabs {
 				return false;
 			}
 		};
+		TAB_MINE_CLASH_CLOTHING = new CreativeModeTab("tabmine_clash_clothing") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(MineclashModItems.GLP_ARMOR_SET_HELMET.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return true;
+			}
+		}.setBackgroundSuffix("item_search.png");
 	}
 }
