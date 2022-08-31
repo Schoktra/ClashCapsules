@@ -1674,6 +1674,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "petrollium_jelly"
+    },
+    {
+      "name": "AmuletItem",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_item"
     }
   ],
   "variable_elements": [],
@@ -1708,6 +1716,7 @@
       "itemGroup.tabmine_clash_mcs": "MineClash Mcs",
       "item.mineclash.ukuleli": "Ukuleli",
       "item.mineclash.kellybattleaxe": "Kelly´s battle Axe",
+      "item.mineclash.amulet_item": "Amulet Item",
       "entity.mineclash.community_ghost": "Community Ghost",
       "item.mineclash.glp_mask_boots": "GLP Mask Boots",
       "entity.mineclash.petrollium_jelly": "Petrollium Jelly",

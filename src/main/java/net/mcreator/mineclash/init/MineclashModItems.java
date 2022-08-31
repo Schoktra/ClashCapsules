@@ -36,6 +36,7 @@ import net.mcreator.mineclash.item.ColdmirrorsWandItem;
 import net.mcreator.mineclash.item.ColdmirrorWandBambooItem;
 import net.mcreator.mineclash.item.CloningClashCapsuleItem;
 import net.mcreator.mineclash.item.ClashCapsuleSwordItem;
+import net.mcreator.mineclash.item.AmuletItemItem;
 import net.mcreator.mineclash.MineclashMod;
 
 public class MineclashModItems {
@@ -79,6 +80,7 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> TADDLZOOKA_NOODLES = REGISTRY.register("taddlzooka_noodles", () -> new TaddlzookaNoodlesItem());
 	public static final RegistryObject<Item> COLDMIRRORWANDPROJECTILE = REGISTRY.register("coldmirrorwandprojectile",
 			() -> new ColdmirrorwandprojectileItem());
+	public static final RegistryObject<Item> AMULET_ITEM = REGISTRY.register("amulet_item", () -> new AmuletItemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
