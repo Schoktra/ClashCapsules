@@ -28,15 +28,19 @@ import net.mcreator.mineclash.item.LighntingClashCapsuleProjectileItem;
 import net.mcreator.mineclash.item.LefloidswordItem;
 import net.mcreator.mineclash.item.LeFloidArmorSetItem;
 import net.mcreator.mineclash.item.KellybattleaxeItem;
+import net.mcreator.mineclash.item.KellyArmorSetItem;
 import net.mcreator.mineclash.item.InvisibilityClashCapsuleItem;
 import net.mcreator.mineclash.item.IblalisbratwurstchainItem;
 import net.mcreator.mineclash.item.IBlaliArmorSetItem;
+import net.mcreator.mineclash.item.GronkhArmorSetItem;
 import net.mcreator.mineclash.item.GLPArmorSetItem;
 import net.mcreator.mineclash.item.FlighClashCapsuleItem;
 import net.mcreator.mineclash.item.FireClashCapsuleProjectileItem;
+import net.mcreator.mineclash.item.DoktorArmorSetItem;
 import net.mcreator.mineclash.item.ColdmirrorwandprojectileItem;
 import net.mcreator.mineclash.item.ColdmirrorsWandItem;
 import net.mcreator.mineclash.item.ColdmirrorWandBambooItem;
+import net.mcreator.mineclash.item.ColdmirrorArmorSetItem;
 import net.mcreator.mineclash.item.CloningClashCapsuleItem;
 import net.mcreator.mineclash.item.ClashCapsuleSwordItem;
 import net.mcreator.mineclash.item.ChanArmorSetItem;
@@ -114,6 +118,31 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> TADDL_ARMOR_SET_LEGGINGS = REGISTRY.register("taddl_armor_set_leggings",
 			() -> new TaddlArmorSetItem.Leggings());
 	public static final RegistryObject<Item> TADDL_ARMOR_SET_BOOTS = REGISTRY.register("taddl_armor_set_boots", () -> new TaddlArmorSetItem.Boots());
+	public static final RegistryObject<Item> KELLY_ARMOR_SET_CHESTPLATE = REGISTRY.register("kelly_armor_set_chestplate",
+			() -> new KellyArmorSetItem.Chestplate());
+	public static final RegistryObject<Item> KELLY_ARMOR_SET_LEGGINGS = REGISTRY.register("kelly_armor_set_leggings",
+			() -> new KellyArmorSetItem.Leggings());
+	public static final RegistryObject<Item> KELLY_ARMOR_SET_BOOTS = REGISTRY.register("kelly_armor_set_boots", () -> new KellyArmorSetItem.Boots());
+	public static final RegistryObject<Item> GRONKH_ARMOR_SET_CHESTPLATE = REGISTRY.register("gronkh_armor_set_chestplate",
+			() -> new GronkhArmorSetItem.Chestplate());
+	public static final RegistryObject<Item> GRONKH_ARMOR_SET_LEGGINGS = REGISTRY.register("gronkh_armor_set_leggings",
+			() -> new GronkhArmorSetItem.Leggings());
+	public static final RegistryObject<Item> GRONKH_ARMOR_SET_BOOTS = REGISTRY.register("gronkh_armor_set_boots",
+			() -> new GronkhArmorSetItem.Boots());
+	public static final RegistryObject<Item> DOKTOR_ARMOR_SET_HELMET = REGISTRY.register("doktor_armor_set_helmet",
+			() -> new DoktorArmorSetItem.Helmet());
+	public static final RegistryObject<Item> DOKTOR_ARMOR_SET_CHESTPLATE = REGISTRY.register("doktor_armor_set_chestplate",
+			() -> new DoktorArmorSetItem.Chestplate());
+	public static final RegistryObject<Item> DOKTOR_ARMOR_SET_LEGGINGS = REGISTRY.register("doktor_armor_set_leggings",
+			() -> new DoktorArmorSetItem.Leggings());
+	public static final RegistryObject<Item> DOKTOR_ARMOR_SET_BOOTS = REGISTRY.register("doktor_armor_set_boots",
+			() -> new DoktorArmorSetItem.Boots());
+	public static final RegistryObject<Item> COLDMIRROR_ARMOR_SET_CHESTPLATE = REGISTRY.register("coldmirror_armor_set_chestplate",
+			() -> new ColdmirrorArmorSetItem.Chestplate());
+	public static final RegistryObject<Item> COLDMIRROR_ARMOR_SET_LEGGINGS = REGISTRY.register("coldmirror_armor_set_leggings",
+			() -> new ColdmirrorArmorSetItem.Leggings());
+	public static final RegistryObject<Item> COLDMIRROR_ARMOR_SET_BOOTS = REGISTRY.register("coldmirror_armor_set_boots",
+			() -> new ColdmirrorArmorSetItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
