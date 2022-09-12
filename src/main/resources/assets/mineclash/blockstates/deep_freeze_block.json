@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mineclash:block/deep_freeze_block"
+    }
+  }
+}

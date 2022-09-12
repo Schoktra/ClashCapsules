@@ -960,14 +960,6 @@
       "path": "~/MineClash Manual"
     },
     {
-      "name": "BAMBUS",
-      "type": "achievement",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bambus"
-    },
-    {
       "name": "MineClashManual",
       "type": "item",
       "sortid": 11,
@@ -1662,14 +1654,6 @@
       "registry_name": "petrollium_jelly"
     },
     {
-      "name": "AmuletItem",
-      "type": "item",
-      "sortid": 101,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amulet_item"
-    },
-    {
       "name": "GLPArmorSet",
       "type": "armor",
       "sortid": 102,
@@ -1812,6 +1796,53 @@
         "ec": true
       },
       "path": "~/Custom Clothing"
+    },
+    {
+      "name": "DeepFreezeBlock",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_freeze_block",
+      "path": "~/Transparency_layer_Dimension"
+    },
+    {
+      "name": "TransparencyLayer",
+      "type": "dimension",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transparency_layer",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Transparency_layer_Dimension"
+    },
+    {
+      "name": "Youshoudlntbehere",
+      "type": "achievement",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "youshoudlntbehere",
+      "path": "~/Transparency_layer_Dimension"
+    },
+    {
+      "name": "Mineclashachievementroot",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mineclashachievementroot"
+    },
+    {
+      "name": "BAMBUS",
+      "type": "achievement",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bambus",
+      "path": "~/Achievements"
     }
   ],
   "variable_elements": [],
@@ -1825,34 +1856,38 @@
       "item.mineclash.time_clash_capsule": "Time ClashCapsule",
       "item.mineclash.coldmirror_armor_set_chestplate": "Coldmirror Hoodie",
       "item.mineclash.kelly_armor_set_leggings": "Kelly Pants",
-      "item.mineclash.gronkh_armor_set_chestplate": "Gronkh Hoodie",
       "item.mineclash.glp_armor_set_leggings": "GLP Pants",
+      "item.mineclash.gronkh_armor_set_chestplate": "Gronkh Hoodie",
       "itemGroup.tabmine_clash_clothing": "MineClash Clothing",
       "item.mineclash.glp_armor_set_helmet": "GLP Mask",
       "entity.mineclash.twitter_bird": "Tweet",
       "item.mineclash.fire_clash_capsule_projectile": "Fire ClashCapsule",
       "itemGroup.tabmine_clash_mcs": "MineClash Mcs",
+      "advancements.youshoudlntbehere.title": "You shouldn´t be here!",
       "item.mineclash.glp_armor_set_boots": "GLP Shoes",
       "item.mineclash.le_floid_armor_set_boots": "LeFloid Shoes",
       "entity.mineclash.petrollium_jelly": "Petrollium Jelly",
       "itemGroup.tabmine_clash_weapons": "MineClash Weapons",
       "item.mineclash.invisibility_clash_capsule": "Invisibility ClashCapsule",
       "item.mineclash.i_blali_armor_set_helmet": "I Blali Armor Set Helmet",
+      "advancements.mineclashachievementroot.title": "Have to Clash",
       "item.mineclash.coldmirror_armor_set_helmet": "Coldmirror Armor Set Helmet",
       "item.mineclash.coldmirror_armor_set_boots": "Coldmirror Shoes",
       "item.mineclash.i_blali_armor_set_chestplate": "IBlali Shirt",
       "item.mineclash.plain_clashcapsule": "Plain ClashCapsule",
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
+      "advancements.mineclashachievementroot.descr": "Take a first look into the Manuel",
       "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.le_floid_armor_set_chestplate": "LeFloid Shirt",
       "item.mineclash.cloning_clash_capsule": "Cloning ClashCapsule",
       "item.mineclash.kelly_armor_set_boots": "Kelly Shoes",
-      "advancements.bambus.descr": "Obtain the Bamboo Coldmirror Wand",
       "item.mineclash.gronkh_armor_set_boots": "Gronkh Shoes",
+      "advancements.bambus.descr": "Find Coldmirror Bamboo Wand",
       "item.mineclash.chan_armor_set_leggings": "Chan´s Pants",
       "item.mineclash.taddl_armor_set_helmet": "Taddl Armor Set Helmet",
       "item.mineclash.lefloidsword": "Lefloidsword",
+      "advancements.youshoudlntbehere.descr": "Enter the Transperrency layer",
       "item.mineclash.community_ghost_spawn_egg": "Community Ghost Spawn Egg",
       "item.mineclash.clash_capsule_sword": "HandOfBlood Sword",
       "block.mineclash.capsule_crafting_table": "ClashCapsule Craftingtable",
@@ -1870,15 +1905,16 @@
       "item.mineclash.chan_armor_set_helmet": "Chan Armor Set Helmet",
       "entity.mineclash.player_clone": "Player Clone (WIP)",
       "item.mineclash.le_floid_armor_set_helmet": "LeFloid Cap",
+      "block.mineclash.deep_freeze_block": "Deep Freeze",
       "item.mineclash.chan_armor_set_chestplate": "Chan´s Shirt",
       "item.mineclash.magical_girl_staff": "Chan´s Magical Girl Staff",
       "item.mineclash.i_blali_armor_set_leggings": "IBlali Pants",
       "item.mineclash.doktor_armor_set_leggings": "Doctor Pants",
+      "item.mineclash.transparency_layer": "Clash Amullet",
       "item.mineclash.le_floid_armor_set_leggings": "LeFloid Pants",
       "item.mineclash.doktor_armor_set_boots": "Doctor Shoes",
       "item.mineclash.ukuleli": "Ukuleli",
       "item.mineclash.kellybattleaxe": "Kelly´s battle Axe",
-      "item.mineclash.amulet_item": "Amulet Item",
       "entity.mineclash.community_ghost": "Community Ghost",
       "item.mineclash.gronkh_armor_set_helmet": "Gronkh Armor Set Helmet",
       "item.mineclash.kelly_armor_set_chestplate": "Kelly Shirt",
@@ -1928,6 +1964,14 @@
       },
       {
         "name": "Custom Clothing",
+        "children": []
+      },
+      {
+        "name": "Transparency_layer_Dimension",
+        "children": []
+      },
+      {
+        "name": "Achievements",
         "children": []
       }
     ]

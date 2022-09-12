@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mineclash:block/transparency_layer_portal_ew"
+    },
+    "axis=x": {
+      "model": "mineclash:block/transparency_layer_portal_ns"
+    }
+  }
+}

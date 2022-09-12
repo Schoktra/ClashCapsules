@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mineclash:blocks/deep_freeze_block_texture",
+    "up": "mineclash:blocks/deep_freeze_block_texture",
+    "north": "mineclash:blocks/deep_freeze_block_texture",
+    "east": "mineclash:blocks/deep_freeze_block_texture",
+    "south": "mineclash:blocks/deep_freeze_block_texture",
+    "west": "mineclash:blocks/deep_freeze_block_texture",
+    "particle": "mineclash:blocks/deep_freeze_block_texture"
+  }
+}

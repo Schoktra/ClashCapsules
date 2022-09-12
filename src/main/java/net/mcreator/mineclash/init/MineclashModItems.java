@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.mineclash.item.WeaponClashCapsuleItem;
 import net.mcreator.mineclash.item.UkuleliItem;
 import net.mcreator.mineclash.item.TweetFeatherItem;
+import net.mcreator.mineclash.item.TransparencyLayerItem;
 import net.mcreator.mineclash.item.TimeClashCapsuleItem;
 import net.mcreator.mineclash.item.TaddlzookaNoodlesItem;
 import net.mcreator.mineclash.item.TaddlNoodlezookaItem;
@@ -44,7 +45,6 @@ import net.mcreator.mineclash.item.ColdmirrorArmorSetItem;
 import net.mcreator.mineclash.item.CloningClashCapsuleItem;
 import net.mcreator.mineclash.item.ClashCapsuleSwordItem;
 import net.mcreator.mineclash.item.ChanArmorSetItem;
-import net.mcreator.mineclash.item.AmuletItemItem;
 import net.mcreator.mineclash.MineclashMod;
 
 public class MineclashModItems {
@@ -87,7 +87,6 @@ public class MineclashModItems {
 	public static final RegistryObject<Item> TADDLZOOKA_NOODLES = REGISTRY.register("taddlzooka_noodles", () -> new TaddlzookaNoodlesItem());
 	public static final RegistryObject<Item> COLDMIRRORWANDPROJECTILE = REGISTRY.register("coldmirrorwandprojectile",
 			() -> new ColdmirrorwandprojectileItem());
-	public static final RegistryObject<Item> AMULET_ITEM = REGISTRY.register("amulet_item", () -> new AmuletItemItem());
 	public static final RegistryObject<Item> GLP_ARMOR_SET_HELMET = REGISTRY.register("glp_armor_set_helmet", () -> new GLPArmorSetItem.Helmet());
 	public static final RegistryObject<Item> GLP_ARMOR_SET_CHESTPLATE = REGISTRY.register("glp_armor_set_chestplate",
 			() -> new GLPArmorSetItem.Chestplate());
@@ -143,6 +142,8 @@ public class MineclashModItems {
 			() -> new ColdmirrorArmorSetItem.Leggings());
 	public static final RegistryObject<Item> COLDMIRROR_ARMOR_SET_BOOTS = REGISTRY.register("coldmirror_armor_set_boots",
 			() -> new ColdmirrorArmorSetItem.Boots());
+	public static final RegistryObject<Item> DEEP_FREEZE_BLOCK = block(MineclashModBlocks.DEEP_FREEZE_BLOCK, MineclashModTabs.TAB_MINE_CLASH_MCS);
+	public static final RegistryObject<Item> TRANSPARENCY_LAYER = REGISTRY.register("transparency_layer", () -> new TransparencyLayerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
