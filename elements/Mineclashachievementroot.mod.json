@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Have to Clash",
-    "achievementDescription": "Take a first look into the Manuel",
+    "achievementDescription": "Welcome to MineClash!",
     "achievementIcon": {
       "value": "CUSTOM:MineClashManual"
     },

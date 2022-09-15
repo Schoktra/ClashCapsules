@@ -1674,14 +1674,14 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mine_clash_clothing",
+      "registry_name": "mine_clash_clothing_s1",
       "path": "~/Custom Clothing"
     },
     {
       "name": "LeFloidArmorSet",
       "type": "armor",
       "sortid": 104,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "le_floid_armor_set",
       "metadata": {
@@ -1696,7 +1696,7 @@
       "name": "ChanArmorSet",
       "type": "armor",
       "sortid": 105,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "chan_armor_set",
       "metadata": {
@@ -1711,7 +1711,7 @@
       "name": "IBlaliArmorSet",
       "type": "armor",
       "sortid": 106,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "i_blali_armor_set",
       "metadata": {
@@ -1726,7 +1726,7 @@
       "name": "TaddlArmorSet",
       "type": "armor",
       "sortid": 107,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "taddl_armor_set",
       "metadata": {
@@ -1741,7 +1741,7 @@
       "name": "KellyArmorSet",
       "type": "armor",
       "sortid": 108,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "kelly_armor_set",
       "metadata": {
@@ -1756,7 +1756,7 @@
       "name": "GronkhArmorSet",
       "type": "armor",
       "sortid": 109,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "gronkh_armor_set",
       "metadata": {
@@ -1771,7 +1771,7 @@
       "name": "DoktorArmorSet",
       "type": "armor",
       "sortid": 110,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "doktor_armor_set",
       "metadata": {
@@ -1786,7 +1786,7 @@
       "name": "ColdmirrorArmorSet",
       "type": "armor",
       "sortid": 111,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "coldmirror_armor_set",
       "metadata": {
@@ -1843,6 +1843,15 @@
       "locked_code": false,
       "registry_name": "bambus",
       "path": "~/Achievements"
+    },
+    {
+      "name": "CapsuleLT",
+      "type": "loottable",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsule_lt",
+      "path": "~/LootTables"
     }
   ],
   "variable_elements": [],
@@ -1858,7 +1867,6 @@
       "item.mineclash.kelly_armor_set_leggings": "Kelly Pants",
       "item.mineclash.glp_armor_set_leggings": "GLP Pants",
       "item.mineclash.gronkh_armor_set_chestplate": "Gronkh Hoodie",
-      "itemGroup.tabmine_clash_clothing": "MineClash Clothing",
       "item.mineclash.glp_armor_set_helmet": "GLP Mask",
       "entity.mineclash.twitter_bird": "Tweet",
       "item.mineclash.fire_clash_capsule_projectile": "Fire ClashCapsule",
@@ -1876,7 +1884,7 @@
       "item.mineclash.i_blali_armor_set_chestplate": "IBlali Shirt",
       "item.mineclash.plain_clashcapsule": "Plain ClashCapsule",
       "item.mineclash.weapon_clash_capsule": "Weapon ClashCapsule",
-      "advancements.mineclashachievementroot.descr": "Take a first look into the Manuel",
+      "advancements.mineclashachievementroot.descr": "Welcome to MineClash!",
       "item.mineclash.player_clone_spawn_egg": "Player Clone (WIP) Spawn Egg",
       "item.mineclash.tweet_feather": "Tweet Feather",
       "item.mineclash.le_floid_armor_set_chestplate": "LeFloid Shirt",
@@ -1894,6 +1902,7 @@
       "item.mineclash.fligh_clash_capsule": "Flight ClashCapsule",
       "item.mineclash.kelly_armor_set_helmet": "Kelly Armor Set Helmet",
       "item.mineclash.coldmirrors_wand": "Coldmirrors Wand",
+      "itemGroup.tabmine_clash_clothing_s1": "MineClash Clothing",
       "item.mineclash.taddlzooka_noodles": "Taddlzooka Noodles",
       "item.mineclash.coldmirrorwandprojectile": "Coldmirrorwandprojectile",
       "item.mineclash.iblalisbratwurstchain": "IBlali´s Bratwurst-Chain",
@@ -1972,6 +1981,10 @@
       },
       {
         "name": "Achievements",
+        "children": []
+      },
+      {
+        "name": "LootTables",
         "children": []
       }
     ]
