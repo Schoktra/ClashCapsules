@@ -69,20 +69,19 @@ public class FireClashCapsuleProjectileEntity extends AbstractArrow implements I
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		FireClashCapsuleEffectProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		FireClashCapsuleEffectProcedure.execute(this);
 	}
 
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		FireClashCapsuleEffectProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), this);
+		FireClashCapsuleEffectProcedure.execute(this);
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		FireClashCapsuleEffectProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(),
-				blockHitResult.getBlockPos().getZ(), this);
+		FireClashCapsuleEffectProcedure.execute(this);
 	}
 
 	@Override

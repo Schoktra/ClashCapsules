@@ -1,8 +1,6 @@
 package net.mcreator.mineclash.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.Explosion;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.Projectile;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -14,7 +12,7 @@ import net.mcreator.mineclash.init.MineclashModEntities;
 import net.mcreator.mineclash.entity.FireClashCapsuleProjectileEntity;
 
 public class FireClashCapsuleEffectProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity immediatesourceentity) {
+	public static void execute(Entity immediatesourceentity) {
 		if (immediatesourceentity == null)
 			return;
 		{
@@ -37,8 +35,6 @@ public class FireClashCapsuleEffectProcedure {
 				projectileLevel.addFreshEntity(_entityToSpawn);
 			}
 		}
-		if (world instanceof Level _level && !_level.isClientSide())
-			_level.explode(null, x, y, z, 4, Explosion.BlockInteraction.NONE);
 		if (immediatesourceentity instanceof Player _player) {
 			ItemStack _stktoremove = new ItemStack(MineclashModItems.FIRE_CLASH_CAPSULE_PROJECTILE.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());

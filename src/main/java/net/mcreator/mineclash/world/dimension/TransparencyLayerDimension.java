@@ -47,7 +47,7 @@ public class TransparencyLayerDimension {
 
 				@Override
 				public boolean isFoggyAt(int x, int y) {
-					return true;
+					return false;
 				}
 			};
 			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("mineclash:transparency_layer"), customEffect));

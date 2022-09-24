@@ -34,6 +34,7 @@ import net.mcreator.mineclash.item.InvisibilityClashCapsuleItem;
 import net.mcreator.mineclash.item.IblalisbratwurstchainItem;
 import net.mcreator.mineclash.item.IBlaliArmorSetItem;
 import net.mcreator.mineclash.item.GronkhArmorSetItem;
+import net.mcreator.mineclash.item.GLPSnesControllerItem;
 import net.mcreator.mineclash.item.GLPArmorSetItem;
 import net.mcreator.mineclash.item.FlighClashCapsuleItem;
 import net.mcreator.mineclash.item.FireClashCapsuleProjectileItem;
@@ -144,6 +145,7 @@ public class MineclashModItems {
 			() -> new ColdmirrorArmorSetItem.Boots());
 	public static final RegistryObject<Item> DEEP_FREEZE_BLOCK = block(MineclashModBlocks.DEEP_FREEZE_BLOCK, MineclashModTabs.TAB_MINE_CLASH_MCS);
 	public static final RegistryObject<Item> TRANSPARENCY_LAYER = REGISTRY.register("transparency_layer", () -> new TransparencyLayerItem());
+	public static final RegistryObject<Item> GLP_SNES_CONTROLLER = REGISTRY.register("glp_snes_controller", () -> new GLPSnesControllerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

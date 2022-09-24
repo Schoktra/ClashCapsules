@@ -15,7 +15,7 @@
       "value": "Blocks.AIR"
     },
     "canRespawnHere": false,
-    "hasFog": true,
+    "hasFog": false,
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
@@ -27,7 +27,7 @@
     "portalParticles": {
       "value": "PORTAL"
     },
-    "portalLuminance": 0,
+    "portalLuminance": 4,
     "portalSound": {
       "value": "block.portal.ambient"
     },

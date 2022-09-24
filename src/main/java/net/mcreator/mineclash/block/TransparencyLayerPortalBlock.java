@@ -33,7 +33,7 @@ import java.util.Optional;
 
 public class TransparencyLayerPortalBlock extends NetherPortalBlock {
 	public TransparencyLayerPortalBlock() {
-		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 0)
+		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 4)
 				.noDrops());
 	}
 
