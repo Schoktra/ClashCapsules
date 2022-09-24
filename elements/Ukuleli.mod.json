@@ -12,7 +12,7 @@
     "creativeTab": {
       "value": "CUSTOM:MineClashWeapons"
     },
-    "toolType": "Spade",
+    "toolType": "Special",
     "harvestLevel": 1,
     "efficiency": 2.0,
     "attackSpeed": 1.0,
@@ -24,6 +24,9 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "UkuleliEffect"
+    }
   }
 }
