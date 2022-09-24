@@ -62,7 +62,7 @@ public abstract class DoktorArmorSetItem extends ArmorItem {
 
 	public static class Helmet extends DoktorArmorSetItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING_S1));
 		}
 
 		@Override
@@ -73,7 +73,7 @@ public abstract class DoktorArmorSetItem extends ArmorItem {
 
 	public static class Chestplate extends DoktorArmorSetItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING_S1));
 		}
 
 		@Override
@@ -84,7 +84,7 @@ public abstract class DoktorArmorSetItem extends ArmorItem {
 
 	public static class Leggings extends DoktorArmorSetItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING_S1));
 		}
 
 		@Override
@@ -95,7 +95,7 @@ public abstract class DoktorArmorSetItem extends ArmorItem {
 
 	public static class Boots extends DoktorArmorSetItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING_S1));
 		}
 
 		@Override

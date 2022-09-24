@@ -1681,7 +1681,7 @@
       "name": "LeFloidArmorSet",
       "type": "armor",
       "sortid": 104,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "le_floid_armor_set",
       "metadata": {
@@ -1696,7 +1696,7 @@
       "name": "ChanArmorSet",
       "type": "armor",
       "sortid": 105,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "chan_armor_set",
       "metadata": {
@@ -1711,7 +1711,7 @@
       "name": "IBlaliArmorSet",
       "type": "armor",
       "sortid": 106,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "i_blali_armor_set",
       "metadata": {
@@ -1726,7 +1726,7 @@
       "name": "TaddlArmorSet",
       "type": "armor",
       "sortid": 107,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "taddl_armor_set",
       "metadata": {
@@ -1741,7 +1741,7 @@
       "name": "KellyArmorSet",
       "type": "armor",
       "sortid": 108,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "kelly_armor_set",
       "metadata": {
@@ -1756,7 +1756,7 @@
       "name": "GronkhArmorSet",
       "type": "armor",
       "sortid": 109,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "gronkh_armor_set",
       "metadata": {
@@ -1771,7 +1771,7 @@
       "name": "DoktorArmorSet",
       "type": "armor",
       "sortid": 110,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "doktor_armor_set",
       "metadata": {
@@ -1786,7 +1786,7 @@
       "name": "ColdmirrorArmorSet",
       "type": "armor",
       "sortid": 111,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "coldmirror_armor_set",
       "metadata": {

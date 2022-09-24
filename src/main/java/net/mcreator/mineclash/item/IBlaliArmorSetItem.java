@@ -62,7 +62,7 @@ public abstract class IBlaliArmorSetItem extends ArmorItem {
 
 	public static class Chestplate extends IBlaliArmorSetItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING_S1));
 		}
 
 		@Override
@@ -73,7 +73,7 @@ public abstract class IBlaliArmorSetItem extends ArmorItem {
 
 	public static class Leggings extends IBlaliArmorSetItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING_S1));
 		}
 
 		@Override
@@ -84,7 +84,7 @@ public abstract class IBlaliArmorSetItem extends ArmorItem {
 
 	public static class Boots extends IBlaliArmorSetItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(MineclashModTabs.TAB_MINE_CLASH_CLOTHING_S1));
 		}
 
 		@Override
